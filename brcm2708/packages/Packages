@@ -1,0 +1,3492 @@
+Package: 6relayd
+Version: 2013-06-23-8ee708101d521382d41a716e45d78fa9f190e00e
+Depends: libc, kmod-ipv6
+Source: package/network/ipv6/6relayd
+SourceFile: 6relayd-2013-06-23.tar.bz2
+SourceURL: git://github.com/sbyx/6relayd.git
+Section: net
+Maintainer: Steven Barth <steven@midlink.org>
+Architecture: brcm2708
+Installed-Size: 23938
+Filename: 6relayd_2013-06-23-8ee708101d521382d41a716e45d78fa9f190e00e_brcm2708.ipk
+Size: 24712
+MD5Sum: a4d9087e3e020fb34336d7b6a9eef0bf
+Description:  6relayd is a daemon for serving and relaying IPv6 management protocols to
+ configure clients and downstream routers.
+ 
+ 6relayd provides server services for RA, stateless DHCPv6, DHCPv6-PD and can
+ be used to relay RA, DHCPv6 and NDP between routed (non-bridged) interfaces
+ in case no delegated prefixes are provided by the upstream router.
+
+Package: ahcpd
+Version: 0.53-2
+Depends: libc, kmod-ipv6, ip, librt
+Source: feeds/packages/ipv6/ahcpd
+SourceFile: ahcpd-0.53.tar.gz
+SourceURL: http://www.pps.univ-paris-diderot.fr/~jch/software/files/
+Section: net
+Maintainer: Gabriel Kerneis <kerneis@pps.univ-paris-diderot.fr>
+Architecture: brcm2708
+Installed-Size: 20900
+Filename: ahcpd_0.53-2_brcm2708.ipk
+Size: 21707
+MD5Sum: 2b4749e57523f7bb45723de40187de7d
+Description:  Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
+ Configuration Protocol (AHCP).  AHCP is designed for wireless mesh
+ networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may
+ also be used on wired networks.
+
+Package: babeld
+Version: 1.4.2-1
+Depends: libc, kmod-ipv6, librt
+Source: feeds/packages/net/babel
+SourceFile: babeld-1.4.2.tar.gz
+SourceURL: http://www.pps.univ-paris-diderot.fr/~jch/software/files/
+Section: net
+Maintainer: Gabriel Kerneis <kerneis@pps.univ-paris-diderot.fr>
+Architecture: brcm2708
+Installed-Size: 45793
+Filename: babeld_1.4.2-1_brcm2708.ipk
+Size: 46682
+MD5Sum: 55d5922b0f92eb9be53390933e86dfbd
+Description:  Babel is a loop-avoiding distance-vector routing protocol roughly based
+ on DSDV and AODV, but with provisions for link cost estimation and
+ redistribution of routes from other routing protocols.
+ While it is optimised for wireless mesh networks, Babel will also work
+ efficiently on wired networks. It will generate between 1.2 and 2.4 times
+ the amount of routing traffic that RIPng would generate, while
+ never counting to infinity.
+
+Package: bahamut
+Version: 1.8.6-1
+Depends: libc, libopenssl, zlib
+Source: feeds/packages/net/bahamut
+SourceFile: bahamut-1.8.6-release.tar.gz
+SourceURL: http://bahamut.dal.net/download
+Section: net
+Architecture: brcm2708
+Installed-Size: 222403
+Filename: bahamut_1.8.6-1_brcm2708.ipk
+Size: 222299
+MD5Sum: cdbc7773d6c51a74cbd9ad8b45978f51
+Description:  Bahamut IRC server
+
+Package: base-files
+Version: 141-r37260
+Depends: libc, netifd, procd
+Source: package/base-files
+Section: base
+Architecture: brcm2708
+Installed-Size: 25363
+Filename: base-files_141-r37260_brcm2708.ipk
+Size: 26008
+MD5Sum: 351b256fb4bef31f25fa7347bd37b90e
+Description:  This package contains a base filesystem and system scripts for OpenWrt.
+
+Package: batmand
+Version: r1439-2
+Depends: libc, libpthread, kmod-tun
+Source: feeds/routing/batmand
+SourceFile: batmand-r1439.tar.gz
+SourceURL: http://downloads.open-mesh.org/svn/batman/trunk/
+Section: net
+Maintainer: Marek Lindner <lindner_marek@yahoo.de>
+Architecture: brcm2708
+Installed-Size: 40246
+Filename: batmand_r1439-2_brcm2708.ipk
+Size: 41013
+MD5Sum: 4d6d8ccb19a37872771d1dbfbda793dd
+Description:  B.A.T.M.A.N. layer 3 routing daemon
+
+Package: bitchx
+Version: 1.1-1
+Depends: libc, libncurses
+Source: feeds/packages/net/bitchx
+SourceFile: ircii-pana-1.1-final.tar.gz
+SourceURL: http://bitchx.org/files/source/
+Section: net
+Architecture: brcm2708
+Installed-Size: 721101
+Filename: bitchx_1.1-1_brcm2708.ipk
+Size: 719479
+MD5Sum: 4ca846d8052642feec712c7a2ec5b5fa
+Description:  popular IRC client
+
+Package: bmx6-json
+Version: r2013060803-4
+Depends: libc, bmx6, libjson
+Source: feeds/routing/bmx6
+SourceFile: bmx6-r2013060803.tar.gz
+SourceURL: git://bmx6.net/bmx6.git
+Section: net
+Maintainer: Axel Neumann <neumann@cgws.de>
+Architecture: brcm2708
+Installed-Size: 6051
+Filename: bmx6-json_r2013060803-4_brcm2708.ipk
+Size: 6659
+MD5Sum: 8bcba00a67ae57000e89bd3ad400f8e5
+Description:  json plugin based on jsonc
+
+Package: bmx6-sms
+Version: r2013060803-4
+Depends: libc, bmx6
+Source: feeds/routing/bmx6
+SourceFile: bmx6-r2013060803.tar.gz
+SourceURL: git://bmx6.net/bmx6.git
+Section: net
+Maintainer: Axel Neumann <neumann@cgws.de>
+Architecture: brcm2708
+Installed-Size: 4720
+Filename: bmx6-sms_r2013060803-4_brcm2708.ipk
+Size: 5262
+MD5Sum: 267eb2d4c54dec0f30e89edebe9e88e8
+Description:  sms plugin
+
+Package: bmx6-uci-config
+Version: r2013060803-4
+Depends: libc, bmx6, libuci
+Source: feeds/routing/bmx6
+SourceFile: bmx6-r2013060803.tar.gz
+SourceURL: git://bmx6.net/bmx6.git
+Section: net
+Maintainer: Axel Neumann <neumann@cgws.de>
+Architecture: brcm2708
+Installed-Size: 8127
+Filename: bmx6-uci-config_r2013060803-4_brcm2708.ipk
+Size: 8794
+MD5Sum: 7008904b913463930864e5c7fe07e561
+Description:  configuration plugin based on uci (recommended!)
+
+Package: bmx6
+Version: r2013060803-4
+Depends: libc, kmod-ip6-tunnel, kmod-iptunnel6, kmod-tun
+Source: feeds/routing/bmx6
+SourceFile: bmx6-r2013060803.tar.gz
+SourceURL: git://bmx6.net/bmx6.git
+Section: net
+Maintainer: Axel Neumann <neumann@cgws.de>
+Architecture: brcm2708
+Installed-Size: 135928
+Filename: bmx6_r2013060803-4_brcm2708.ipk
+Size: 136473
+MD5Sum: eceea85052ca41021bb980e92866431e
+Description:  BMX6 layer 3 routing daemon supporting IPv4, IPv6, and IPv4 over IPv6
+
+Package: bmxd
+Version: r2012011001
+Depends: libc, kmod-tun
+Source: feeds/routing/bmxd
+SourceFile: bmxd-r2012011001.tar.gz
+SourceURL: git://github.com/axn/bmxd.git
+Section: net
+Maintainer: Axel Neumann <neumann@cgws.de>
+Architecture: brcm2708
+Installed-Size: 69312
+Filename: bmxd_r2012011001_brcm2708.ipk
+Size: 70056
+MD5Sum: 7c14fa35688fff8a75687e753e3d75e9
+Description:  B.a.t.M.a.n. eXperimental (BMX) layer 3 routing daemon
+
+Package: bridge
+Version: 1.5-2
+Depends: libc
+Source: feeds/packages/net/bridge-utils
+SourceFile: bridge-utils-1.5.tar.gz
+SourceURL: @SF/bridge
+Section: net
+Architecture: brcm2708
+Installed-Size: 9677
+Filename: bridge_1.5-2_brcm2708.ipk
+Size: 10285
+MD5Sum: a28795808e07f88598dfa5bd7737454b
+Description:  Manage ethernet bridging: a way to connect networks together to 
+ form a larger network.
+
+Package: busybox
+Version: 1.19.4-6
+Depends: libc
+Source: package/utils/busybox
+SourceFile: busybox-1.19.4.tar.bz2
+SourceURL: http://www.busybox.net/downloads http://distfiles.gentoo.org/distfiles/
+License: GPLv2 BSD-4c
+LicenseFiles: LICENSE archival/libarchive/bz/LICENSE
+Section: base
+Essential: yes
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 222804
+Filename: busybox_1.19.4-6_brcm2708.ipk
+Size: 222984
+MD5Sum: 62cd6c4680c93a86079ef44a133852e1
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: collectd-mod-interface
+Version: 4.10.8-2
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceFile: collectd-4.10.8.tar.bz2
+SourceURL: http://collectd.org/files/
+Section: utils
+Architecture: brcm2708
+Installed-Size: 1783
+Filename: collectd-mod-interface_4.10.8-2_brcm2708.ipk
+Size: 2367
+MD5Sum: 6699b02befa351c0d9351ba8072ac285
+Description:  network interfaces input plugin
+
+Package: collectd-mod-iwinfo
+Version: 4.10.8-2
+Depends: libc, collectd, libiwinfo
+Source: feeds/packages/utils/collectd
+SourceFile: collectd-4.10.8.tar.bz2
+SourceURL: http://collectd.org/files/
+Section: utils
+Architecture: brcm2708
+Installed-Size: 2825
+Filename: collectd-mod-iwinfo_4.10.8-2_brcm2708.ipk
+Size: 3425
+MD5Sum: 292b0ae16741e1a7c4877729bbac46ee
+Description:  libiwinfo wireless statistics plugin
+
+Package: collectd-mod-load
+Version: 4.10.8-2
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceFile: collectd-4.10.8.tar.bz2
+SourceURL: http://collectd.org/files/
+Section: utils
+Architecture: brcm2708
+Installed-Size: 1630
+Filename: collectd-mod-load_4.10.8-2_brcm2708.ipk
+Size: 2217
+MD5Sum: f03016d80fa208eb4fd248740745c722
+Description:  system load input plugin
+
+Package: collectd-mod-rrdtool
+Version: 4.10.8-2
+Depends: libc, collectd, librrd1
+Source: feeds/packages/utils/collectd
+SourceFile: collectd-4.10.8.tar.bz2
+SourceURL: http://collectd.org/files/
+Section: utils
+Architecture: brcm2708
+Installed-Size: 9501
+Filename: collectd-mod-rrdtool_4.10.8-2_brcm2708.ipk
+Size: 10072
+MD5Sum: 3f521ad8f9e2deb6cf5f0ed21235b59d
+Description:  RRDtool output plugin
+
+Package: collectd
+Version: 4.10.8-2
+Depends: libc, libpthread, zlib, libltdl, libip4tc
+Source: feeds/packages/utils/collectd
+SourceFile: collectd-4.10.8.tar.bz2
+SourceURL: http://collectd.org/files/
+Section: utils
+Architecture: brcm2708
+Installed-Size: 59426
+Filename: collectd_4.10.8-2_brcm2708.ipk
+Size: 60177
+MD5Sum: 293c33d988c9a3759a48c5e473fe3445
+Description:  collectd is a small daemon which collects system information periodically
+ and provides mechanismns to store the values in a variety of ways.
+
+Package: dnsmasq
+Version: 2.66-3
+Depends: libc
+Source: package/network/services/dnsmasq
+SourceFile: dnsmasq-2.66.tar.gz
+SourceURL: http://thekelleys.org.uk/dnsmasq
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Architecture: brcm2708
+Installed-Size: 93653
+Filename: dnsmasq_2.66-3_brcm2708.ipk
+Size: 94282
+MD5Sum: abf75a9854b09594b2983601e06a0088
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: dropbear
+Version: 2012.55-2
+Depends: libc
+Source: package/network/services/dropbear
+SourceFile: dropbear-2012.55.tar.bz2
+SourceURL: http://matt.ucc.asn.au/dropbear/releases/ http://www.mirrors.wiretapped.net/security/cryptography/apps/ssh/dropbear/
+License: MIT
+LicenseFiles: LICENSE libtomcrypt/LICENSE libtommath/LICENSE
+Section: net
+Architecture: brcm2708
+Installed-Size: 83674
+Filename: dropbear_2012.55-2_brcm2708.ipk
+Size: 84332
+MD5Sum: b41d9fdb48fed55fe85f843fb4a20f5d
+Description:  A small SSH2 server/client designed for small memory environments.
+
+Package: firewall
+Version: 2013-07-04
+Depends: libc, libubox, libubus, libuci, libip4tc, libip6tc, libxtables, kmod-ipt-core, kmod-ipt-nat
+Source: package/network/config/firewall
+SourceFile: firewall-2013-07-04-635d8b088607ccb7a3124ce43469cda52150f484.tar.gz
+SourceURL: git://nbd.name/firewall3.git
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 57939
+Filename: firewall_2013-07-04_brcm2708.ipk
+Size: 58643
+MD5Sum: 4069a9f122c967d7f64e3d9ca2273998
+Description:  This package provides a config-compatible C implementation of the UCI firewall.
+
+Package: freifunk-common
+Version: 1
+Depends: libc
+Source: feeds/luci/contrib/package/freifunk-common
+Section: luci
+Architecture: brcm2708
+Installed-Size: 2668
+Filename: freifunk-common_1_brcm2708.ipk
+Size: 3245
+MD5Sum: 524b4f5b9d4b01f2d97092d908e26499
+Description:  Common files and scripts that are needed to run free wireless mesh networks.
+
+Package: freifunk-firewall
+Version: 3
+Depends: libc, firewall
+Source: feeds/luci/contrib/package/freifunk-firewall
+Section: luci
+Architecture: brcm2708
+Installed-Size: 1152
+Filename: freifunk-firewall_3_brcm2708.ipk
+Size: 1892
+MD5Sum: f6a328fe927ef80a8c2b442efbb99bc2
+Description:  Various firewall extensions for Freifunk. Includes NAT fixes and advanced settings.
+
+Package: freifunk-gwcheck
+Version: 3
+Depends: libc, firewall, ip, iptables-mod-ipopt, olsrd-mod-dyn-gw-plain
+Source: feeds/luci/contrib/package/freifunk-gwcheck
+Section: luci
+Architecture: brcm2708
+Installed-Size: 1888
+Filename: freifunk-gwcheck_3_brcm2708.ipk
+Size: 2610
+MD5Sum: 5d918ead53d8c3179eb560abc26e2fba
+Description:  This script periodically checks if internet is available via your own gateway. If it detects that it is broken, then the defaultroute is removed from the main table and temporarilly placed in table gw-check until your internet works again. Config file is /etc/config/freifunk-gwcheck.
+
+Package: freifunk-mapupdate
+Version: 1
+Depends: libc, olsrd-mod-nameservice
+Source: feeds/luci/contrib/package/freifunk-mapupdate
+Section: luci
+Architecture: brcm2708
+Installed-Size: 1287
+Filename: freifunk-mapupdate_1_brcm2708.ipk
+Size: 1922
+MD5Sum: 099484529f8f6c844b7ca636b12f022e
+Description:  This script updates the freifunkmap (also known as the global map, see http://map.berlin.freifunk.net) every hour. Config file is /etc/config/freifunk-mapupdate.
+
+Package: freifunk-policyrouting
+Version: 5
+Depends: libc, ip
+Source: feeds/luci/contrib/package/freifunk-policyrouting
+Section: luci
+Architecture: brcm2708
+Installed-Size: 2188
+Filename: freifunk-policyrouting_5_brcm2708.ipk
+Size: 2893
+MD5Sum: 3af3282941d24d8c49a3b2cbe388139e
+Description:  Allows you to send your own traffic via your own default gateway while sending traffic received from the mesh to a gateway in the mesh.
+
+Package: freifunk-watchdog
+Version: 8
+Depends: libc, libuci
+Source: feeds/luci/contrib/package/freifunk-watchdog
+Section: luci
+Architecture: brcm2708
+Installed-Size: 5432
+Filename: freifunk-watchdog_8_brcm2708.ipk
+Size: 6068
+MD5Sum: 9a961f86351677886538f5356f96571d
+Description:  A watchdog daemon that monitors wireless interfaces to ensure the correct bssid and channel.
+ The process will initiate a wireless restart as soon as it detects a bssid or channel mismatch.
+
+Package: glib1
+Version: 1.2.10-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/glib
+SourceFile: glib-1.2.10.tar.gz
+SourceURL: ftp://ftp.gtk.org/pub/gtk/v1.2 http://ftp.gwdg.de/pub/misc/grafik/gimp/gtk/v1.2/ http://ftp.esat.net/mirrors/ftp.gimp.org/pub/gtk/v1.2/ http://www.mirrorservice.org/sites/ftp.gimp.org/pub/gtk/v1.2/
+License: GPLv2
+LicenseFiles: COPYING docs/reference/COPYING glib/pcre/COPYING gmodule/COPYING
+Section: libs
+Architecture: brcm2708
+Installed-Size: 72505
+Filename: glib1_1.2.10-1_brcm2708.ipk
+Size: 73139
+MD5Sum: aa4d65d55dd2c2647e1b430c2ffc2229
+Description:  GLib is a library containing many useful C routines for things such 
+ as trees, hashes, and lists.
+
+Package: hostapd-mini
+Version: 20130630-2
+Depends: libc, libnl-tiny, libubus
+Source: package/network/services/hostapd
+SourceFile: hostapd-20130630.tar.bz2
+SourceURL: git://w1.fi/srv/git/hostap.git
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 140375
+Filename: hostapd-mini_20130630-2_brcm2708.ipk
+Size: 140895
+MD5Sum: bfe30df2c0f598e0e20045224ff1f1e1
+Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator (WPA-PSK only).
+
+Package: hostapd-utils
+Version: 20130630-2
+Depends: libc
+Source: package/network/services/hostapd
+SourceFile: hostapd-20130630.tar.bz2
+SourceURL: git://w1.fi/srv/git/hostap.git
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 14249
+Filename: hostapd-utils_20130630-2_brcm2708.ipk
+Size: 14904
+MD5Sum: f37fa565e6ab969d97b41b1d55671082
+Description:  This package contains a command line utility to control the
+ IEEE 802.1x/WPA/EAP/RADIUS Authenticator.
+
+Package: hostapd
+Version: 20130630-2
+Depends: libc, libnl-tiny, libubus
+Source: package/network/services/hostapd
+SourceFile: hostapd-20130630.tar.bz2
+SourceURL: git://w1.fi/srv/git/hostap.git
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 257616
+Filename: hostapd_20130630-2_brcm2708.ipk
+Size: 257765
+MD5Sum: 561bacdea074e21c8a80da3c8d6d815a
+Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
+ Authenticator.
+
+Package: ip6tables
+Version: 1.4.19.1-1
+Depends: libc, kmod-ip6tables, iptables
+Source: package/network/utils/iptables
+SourceFile: iptables-1.4.19.1.tar.bz2
+SourceURL: http://www.netfilter.org/projects/iptables/files ftp://ftp.be.netfilter.org/pub/netfilter/iptables/ ftp://ftp.de.netfilter.org/pub/netfilter/iptables/ ftp://ftp.no.netfilter.org/pub/netfilter/iptables/
+Section: net
+Architecture: brcm2708
+Installed-Size: 214
+Filename: ip6tables_1.4.19.1-1_brcm2708.ipk
+Size: 824
+MD5Sum: 5729e6ef50b0e10728777e3f704218ed
+Description:  IPv6 firewall administration tool
+
+Package: ip
+Version: 3.9.0-3
+Depends: libc, libnl-tiny
+Source: package/network/utils/iproute2
+SourceFile: iproute2-3.9.0.tar.bz2
+SourceURL: http://kernel.org/pub/linux/utils/net/iproute2/
+Section: net
+Architecture: brcm2708
+Installed-Size: 113701
+Filename: ip_3.9.0-3_brcm2708.ipk
+Size: 114270
+MD5Sum: 861d50c9f0b9a4587b72841be3d5e0eb
+Description:  Routing control utility
+
+Package: iptables-mod-ipopt
+Version: 1.4.19.1-1
+Depends: libc, iptables, kmod-ipt-ipopt
+Source: package/network/utils/iptables
+SourceFile: iptables-1.4.19.1.tar.bz2
+SourceURL: http://www.netfilter.org/projects/iptables/files ftp://ftp.be.netfilter.org/pub/netfilter/iptables/ ftp://ftp.de.netfilter.org/pub/netfilter/iptables/ ftp://ftp.no.netfilter.org/pub/netfilter/iptables/
+Section: net
+Architecture: brcm2708
+Installed-Size: 12574
+Filename: iptables-mod-ipopt_1.4.19.1-1_brcm2708.ipk
+Size: 13275
+MD5Sum: b585479695919ccc347c629af580723f
+Description:  iptables extensions for matching/changing IP packet options.
+ 
+ Matches:
+ - dscp
+ - ecn
+ - length
+ - statistic
+ - tcpmss
+ - unclean
+ - hl
+ 
+ Targets:
+ - DSCP
+ - CLASSIFY
+ - ECN
+ - HL
+ 
+
+Package: iptables-mod-nat-extra
+Version: 1.4.19.1-1
+Depends: libc, iptables, kmod-ipt-nat-extra
+Source: package/network/utils/iptables
+SourceFile: iptables-1.4.19.1.tar.bz2
+SourceURL: http://www.netfilter.org/projects/iptables/files ftp://ftp.be.netfilter.org/pub/netfilter/iptables/ ftp://ftp.de.netfilter.org/pub/netfilter/iptables/ ftp://ftp.no.netfilter.org/pub/netfilter/iptables/
+Section: net
+Architecture: brcm2708
+Installed-Size: 1996
+Filename: iptables-mod-nat-extra_1.4.19.1-1_brcm2708.ipk
+Size: 2672
+MD5Sum: cb8fceb8ef92f1873c87ba77877643d8
+Description:  iptables extensions for extra NAT targets.
+ 
+ Targets:
+ - MIRROR
+ - NETMAP
+
+Package: iptables
+Version: 1.4.19.1-1
+Depends: libc, kmod-ipt-core, libip4tc, libip6tc, libxtables
+Source: package/network/utils/iptables
+SourceFile: iptables-1.4.19.1.tar.bz2
+SourceURL: http://www.netfilter.org/projects/iptables/files ftp://ftp.be.netfilter.org/pub/netfilter/iptables/ ftp://ftp.de.netfilter.org/pub/netfilter/iptables/ ftp://ftp.no.netfilter.org/pub/netfilter/iptables/
+Section: net
+Architecture: brcm2708
+Installed-Size: 62306
+Filename: iptables_1.4.19.1-1_brcm2708.ipk
+Size: 63016
+MD5Sum: 90a01eb9f597570e3caae2182069ee76
+Description:  IP firewall administration tool.
+ 
+ Matches:
+ - icmp
+ - tcp
+ - udp
+ - comment
+ - conntrack
+ - limit
+ - mac
+ - mark
+ - multiport
+ - set
+ - state
+ - time
+ 
+ Targets:
+ - ACCEPT
+ - CT
+ - DNAT
+ - DROP
+ - REJECT
+ - LOG
+ - MARK
+ - MASQUERADE
+ - REDIRECT
+ - SET
+ - SNAT
+ - TCPMSS
+ 
+ Tables:
+ - filter
+ - mangle
+ - nat
+ - raw
+ 
+
+Package: irssi-glib1
+Version: 0.8.10-3
+Depends: libc, glib1, libncurses
+Source: feeds/packages/net/irssi-glib1
+SourceFile: irssi-0.8.10a.tar.bz2
+SourceURL: http://irssi.org/files/
+Section: net
+Architecture: brcm2708
+Installed-Size: 319635
+Filename: irssi-glib1_0.8.10-3_brcm2708.ipk
+Size: 319652
+MD5Sum: f98fdf5f224f0547c59c583c1f10e09d
+Description:  glib1 console irc client
+
+Package: iw
+Version: 3.10-1
+Depends: libc, libnl-tiny
+Source: package/network/utils/iw
+SourceFile: iw-3.10.tar.bz2
+SourceURL: https://www.kernel.org/pub/software/network/iw
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 49449
+Filename: iw_3.10-1_brcm2708.ipk
+Size: 50086
+MD5Sum: 45b8a9b443ed662e3a3ec034d14f7ca4
+Description:  cfg80211 interface configuration utility
+
+Package: jshn
+Version: 2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa
+Depends: libc, libjson-c
+Source: package/libs/libubox
+SourceFile: libubox-2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa.tar.gz
+SourceURL: git://nbd.name/luci2/libubox.git
+License: ISC BSD-3c
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 4498
+Filename: jshn_2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa_brcm2708.ipk
+Size: 5160
+MD5Sum: a0f5d004c07208a9cd070aee0ab49a3a
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: kmod-ath9k-common
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-ath
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 112424
+Filename: kmod-ath9k-common_3.10+2013-06-27-1_brcm2708.ipk
+Size: 111239
+MD5Sum: 1d381cf921535163a9985bb5b8e47430
+Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
+
+Package: kmod-ath9k-htc
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-ath9k-common, kmod-usb-core
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 91905
+Filename: kmod-ath9k-htc_3.10+2013-06-27-1_brcm2708.ipk
+Size: 92611
+MD5Sum: bf7f4f4021324db2b1629e1e725f5a6e
+Description:  This module adds support for wireless adapters based on
+ Atheros USB AR9271 and AR7010 family of chipsets.
+
+Package: kmod-ath
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-mac80211
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 8341
+Filename: kmod-ath_3.10+2013-06-27-1_brcm2708.ipk
+Size: 9061
+MD5Sum: a30dcb0aba808cd1caaec0264772177d
+Description:  This module contains some common parts needed by Atheros Wireless drivers.
+
+Package: kmod-batman-adv
+Version: 3.10+2013.2.0-3
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-lib-crc16, kmod-crypto-core, kmod-crypto-crc32c, kmod-lib-crc32c, libc
+Source: feeds/routing/batman-adv
+SourceFile: batman-adv-2013.2.0.tar.gz
+SourceURL: http://downloads.open-mesh.org/batman/releases/batman-adv-2013.2.0
+Section: kernel
+Maintainer: Marek Lindner <lindner_marek@yahoo.de>
+Architecture: brcm2708
+Installed-Size: 80328
+Filename: kmod-batman-adv_3.10+2013.2.0-3_brcm2708.ipk
+Size: 81171
+MD5Sum: b287cff73e8d131214f453c3b4f30e48
+Description:  B.A.T.M.A.N. advanced is a kernel module which allows to
+ build layer 2 mesh networks. This package contains the
+ version 2013.2.0 of the kernel module plus its user space
+ configuration & managerment tool batctl.
+
+Package: kmod-brcmfmac
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-usb-core, kmod-cfg80211, kmod-brcmutil
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 278630
+Filename: kmod-brcmfmac_3.10+2013-06-27-1_brcm2708.ipk
+Size: 279336
+MD5Sum: 8d489ac468efcc198e0e00a68375a77b
+Description:  Kernel module for Broadcom IEEE802.11n USB Wireless cards
+
+Package: kmod-brcmutil
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0)
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 2978
+Filename: kmod-brcmutil_3.10+2013-06-27-1_brcm2708.ipk
+Size: 3759
+MD5Sum: 59ff65816a3c8808492c1b0df7bf2510
+Description:  This module contains some common parts needed by Broadcom Wireless drivers brcmsmac and brcmfmac.
+
+Package: kmod-bridge
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-stp
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 104
+Filename: kmod-bridge_3.10-1_brcm2708.ipk
+Size: 681
+MD5Sum: f8e8bf0f69c57759e60c759118347886
+Description:  Kernel module for Ethernet bridging.
+
+Package: kmod-carl9170
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-mac80211, kmod-ath, kmod-usb-core, kmod-input-core
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 48973
+Filename: kmod-carl9170_3.10+2013-06-27-1_brcm2708.ipk
+Size: 49790
+MD5Sum: 32f0e782419f3cfd2e2acd44f7478eac
+Description:  Driver for Atheros AR9170 USB sticks
+
+Package: kmod-cfg80211
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), iw
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 96155
+Filename: kmod-cfg80211_3.10+2013-06-27-1_brcm2708.ipk
+Size: 96561
+MD5Sum: 48b9c8463ecce4751587385ec6223ba1
+Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
+
+Package: kmod-crypto-aes
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 105
+Filename: kmod-crypto-aes_3.10-1_brcm2708.ipk
+Size: 682
+MD5Sum: 9a4e1dfe95f1740bcf214855c9135d34
+Description:  AES cipher CryptoAPI module
+
+Package: kmod-crypto-arc4
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-crypto-core, kmod-crypto-manager
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 1587
+Filename: kmod-crypto-arc4_3.10-1_brcm2708.ipk
+Size: 2324
+MD5Sum: 4853cc55d944f0343edf6a877df9b8b5
+Description:  ARC4 (RC4) cipher CryptoAPI module
+
+Package: kmod-crypto-core
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 105
+Filename: kmod-crypto-core_3.10-1_brcm2708.ipk
+Size: 669
+MD5Sum: 43d106a025913a100fc3c98723149442
+Description:  Core CryptoAPI modules
+
+Package: kmod-crypto-crc32c
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-crypto-hash, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 105
+Filename: kmod-crypto-crc32c_3.10-1_brcm2708.ipk
+Size: 682
+MD5Sum: 65ded40f9d951178910f2a5dee78587c
+Description:  CRC32c CRC module
+
+Package: kmod-crypto-hash
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 105
+Filename: kmod-crypto-hash_3.10-1_brcm2708.ipk
+Size: 677
+MD5Sum: 92582725d91295e0a91779f80fd3036d
+Description:  CryptoAPI hash support
+
+Package: kmod-crypto-manager
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-crypto-hash, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 9339
+Filename: kmod-crypto-manager_3.10-1_brcm2708.ipk
+Size: 10092
+MD5Sum: b0168133081c164b8fd72aab4475c12e
+Description:  CryptoAPI algorithm manager
+
+Package: kmod-eeprom-93cx6
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 1660
+Filename: kmod-eeprom-93cx6_3.10-1_brcm2708.ipk
+Size: 2385
+MD5Sum: 4b1aab89701f1aba1f96cb719419948a
+Description:  Kernel module for EEPROM 93CX6 support
+
+Package: kmod-hid
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-input-core, kmod-input-evdev
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 36870
+Filename: kmod-hid_3.10-1_brcm2708.ipk
+Size: 36574
+MD5Sum: c6adb12c10a41575a3cf48d0a80534b5
+Description:  Kernel modules for HID devices
+
+Package: kmod-input-core
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 105
+Filename: kmod-input-core_3.10-1_brcm2708.ipk
+Size: 681
+MD5Sum: 6dd8678db17d2ff72c834b207cbec221
+Description:  Kernel modules for support of input device
+
+Package: kmod-input-evdev
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 6078
+Filename: kmod-input-evdev_3.10-1_brcm2708.ipk
+Size: 6796
+MD5Sum: 9c9c26e05f54391cb3f75d2439b95cc4
+Description:  Kernel modules for support of input device events
+
+Package: kmod-ip6-tunnel
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-ipv6, kmod-iptunnel6
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 10436
+Filename: kmod-ip6-tunnel_3.10-1_brcm2708.ipk
+Size: 11170
+MD5Sum: eb8201d78595d18bb9a597dfd6999177
+Description:  Kernel modules for IPv6-in-IPv6 and IPv4-in-IPv6 tunnelling
+
+Package: kmod-ip6tables
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-ipv6
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 24514
+Filename: kmod-ip6tables_3.10-1_brcm2708.ipk
+Size: 25192
+MD5Sum: 0ae82a023ecf0da78c7e18045e438f7f
+Description:  Netfilter IPv6 firewalling support
+
+Package: kmod-ipt-conntrack
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 35563
+Filename: kmod-ipt-conntrack_3.10-1_brcm2708.ipk
+Size: 36400
+MD5Sum: fb4067697a435912065615e05b089880
+Description:  Netfilter (IPv4) kernel modules for connection tracking
+ Includes:
+ - conntrack
+ - defrag
+ - iptables_raw
+ - NOTRACK
+ - state
+
+Package: kmod-ipt-core
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 30045
+Filename: kmod-ipt-core_3.10-1_brcm2708.ipk
+Size: 30741
+MD5Sum: 1274acad9bb71ac205c1f85a358e4935
+Description:  Netfilter core kernel modules
+ Includes:
+ - comment
+ - limit
+ - LOG
+ - mac
+ - multiport
+ - REJECT
+ - TCPMSS
+
+Package: kmod-ipt-ipopt
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 7272
+Filename: kmod-ipt-ipopt_3.10-1_brcm2708.ipk
+Size: 8080
+MD5Sum: 878fefb7cc693fbce12e1e375c3d7913
+Description:  Netfilter (IPv4) modules for matching/changing IP packet options
+ Includes:
+ - CLASSIFY
+ - dscp/DSCP
+ - ecn/ECN
+ - hl/HL
+ - length
+ - mark/MARK
+ - statistic
+ - tcpmss
+ - time
+ - ttl/TTL
+ - unclean
+
+Package: kmod-ipt-nat-extra
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-ipt-core, kmod-ipt-nat
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 1566
+Filename: kmod-ipt-nat-extra_3.10-1_brcm2708.ipk
+Size: 2335
+MD5Sum: f9a83b759d5b30924f23f020eaf62229
+Description:  Netfilter (IPv4) kernel modules for extra NAT targets
+ Includes:
+ - NETMAP
+ - REDIRECT
+
+Package: kmod-ipt-nat
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-ipt-core, kmod-ipt-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 14202
+Filename: kmod-ipt-nat_3.10-1_brcm2708.ipk
+Size: 14948
+MD5Sum: c07a399eb04fe7107ba341cbf1fa93c1
+Description:  Netfilter (IPv4) kernel modules for basic NAT targets
+ Includes:
+ - MASQUERADE
+
+Package: kmod-ipt-nathelper
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-ipt-core, kmod-ipt-nat
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 8052
+Filename: kmod-ipt-nathelper_3.10-1_brcm2708.ipk
+Size: 8806
+MD5Sum: b38e91a8c390fc9fc3f0728c4962bfe0
+Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
+ Includes:
+ - ftp
+ - irc
+ - tftp
+
+Package: kmod-iptunnel6
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-ipv6
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 1987
+Filename: kmod-iptunnel6_3.10-1_brcm2708.ipk
+Size: 2669
+MD5Sum: 3bfdf6da650efe26f7d688c3da14825e
+Description:  Kernel modules for IPv6 tunneling
+
+Package: kmod-ipv6
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 134858
+Filename: kmod-ipv6_3.10-1_brcm2708.ipk
+Size: 134941
+MD5Sum: a934b4def332c0f5713692611ab20e59
+Description:  Kernel modules for IPv6 support
+
+Package: kmod-lib-crc-ccitt
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 1464
+Filename: kmod-lib-crc-ccitt_3.10-1_brcm2708.ipk
+Size: 2178
+MD5Sum: b4ab56ec35d272523c9723acde7986eb
+Description:  Kernel module for CRC-CCITT support
+
+Package: kmod-lib-crc-itu-t
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 1464
+Filename: kmod-lib-crc-itu-t_3.10-1_brcm2708.ipk
+Size: 2180
+MD5Sum: ab63176a94198ce708cdbf92c2e02b3d
+Description:  Kernel module for CRC ITU-T V.41 support
+
+Package: kmod-lib-crc16
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 105
+Filename: kmod-lib-crc16_3.10-1_brcm2708.ipk
+Size: 673
+MD5Sum: b09a1c8c517b108997f19b57c61f74db
+Description:  Kernel module for CRC16 support
+
+Package: kmod-lib-crc32c
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-crypto-crc32c
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 1369
+Filename: kmod-lib-crc32c_3.10-1_brcm2708.ipk
+Size: 2101
+MD5Sum: f843752b3eea37c4349ec207467182eb
+Description:  Kernel module for CRC32 support
+
+Package: kmod-lib80211
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0)
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 11635
+Filename: kmod-lib80211_3.10+2013-06-27-1_brcm2708.ipk
+Size: 12454
+MD5Sum: 524a2d991d1fc418d9ab3aa4d7ba7d14
+Description:  Kernel modules for 802.11 Networking stack
+ Includes:
+ - lib80211
+ - lib80211_crypt_wep
+ - lib80211_crypt_tkip
+ - lib80211_crytp_ccmp
+
+Package: kmod-libertas-usb
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-cfg80211, kmod-usb-core, kmod-lib80211
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 248841
+Filename: kmod-libertas-usb_3.10+2013-06-27-1_brcm2708.ipk
+Size: 249485
+MD5Sum: cedb64a1360fb67622346d8d587cd554
+Description:  Marvell 88W8015 Wireless Driver
+
+Package: kmod-llc
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 104
+Filename: kmod-llc_3.10-1_brcm2708.ipk
+Size: 680
+MD5Sum: 6a9d00f758db70c0bc93fbb94ae5e753
+Description:  Kernel module for ANSI/IEEE 802.2 LLC support.
+
+Package: kmod-mac80211
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-aes, kmod-cfg80211
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 154639
+Filename: kmod-mac80211_3.10+2013-06-27-1_brcm2708.ipk
+Size: 154684
+MD5Sum: eb7e9defdefb6bfe2123dfc9355b21ed
+Description:  Generic IEEE 802.11 Networking Stack (mac80211)
+
+Package: kmod-net-zd1201
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 96905
+Filename: kmod-net-zd1201_3.10-1_brcm2708.ipk
+Size: 98012
+MD5Sum: 05e9ac24f6e166586899f6d8e743555e
+Description:  Kernel modules for Zydas ZD1201 support
+ Devices using this chip:
+ * Sweex LC100020
+ * Zyxel ZyAir B-220
+ * Peabird USB
+ * Gigafast WF741-UIC
+ * E-Tech Wireless USB Adapter
+ * DSE 802.11b USB wireless LAN adapter
+ * CC and C WLAN USB Adapter (WL 1202)
+ * Edimax EW-7117U
+ * X-Micro WLAN 11b USB Adapter
+ * Belkin F5D6051
+ * Topcom SKYR@CER WIRELESS USB STICK 11
+ * Surecom EP-9001
+ * JAHT WN-1011U
+ * BeWAN Wi-Fi USB 11
+ * NorthQ NQ9000
+ * MSI UB11B
+ * Origo WLL-1610
+ * Longshine LCS-8131R
+ * Gigabyte GN-WLBZ201
+
+Package: kmod-nls-base
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 104
+Filename: kmod-nls-base_3.10-1_brcm2708.ipk
+Size: 684
+MD5Sum: 85304c4bd32f0cc74e26575db97a4445
+Description:  Kernel module for NLS (Native Language Support)
+
+Package: kmod-p54-common
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-mac80211, kmod-lib-crc-ccitt
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 18510
+Filename: kmod-p54-common_3.10+2013-06-27-1_brcm2708.ipk
+Size: 19312
+MD5Sum: 6e9984e65a2f1da72dfa90fa5761fd11
+Description:  Prism54 Drivers (COMMON)
+
+Package: kmod-p54-usb
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-usb-core, kmod-p54-common
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 31382
+Filename: kmod-p54-usb_3.10+2013-06-27-1_brcm2708.ipk
+Size: 32147
+MD5Sum: e23b1388336a77658a56778c2a3e232b
+Description:  Prism54 Drivers (USB)
+
+Package: kmod-ppp
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-lib-crc-ccitt
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 21525
+Filename: kmod-ppp_3.10-1_brcm2708.ipk
+Size: 22210
+MD5Sum: 0a708fc303f1b0d23fd60a93978bd1c6
+Description:  Kernel modules for PPP support
+
+Package: kmod-pppoe
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-ppp, kmod-pppox
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 6671
+Filename: kmod-pppoe_3.10-1_brcm2708.ipk
+Size: 7408
+MD5Sum: 49654b3f39a74555ac62cae5593ab873
+Description:  Kernel module for PPPoE (PPP over Ethernet) support
+
+Package: kmod-pppox
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-ppp
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 1699
+Filename: kmod-pppox_3.10-1_brcm2708.ipk
+Size: 2431
+MD5Sum: 627688eb6b211ce7aaba0223b824528c
+Description:  Kernel helper module for PPPoE and PPTP support
+
+Package: kmod-rt2500-usb
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-rt2x00-usb
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 9649
+Filename: kmod-rt2500-usb_3.10+2013-06-27-1_brcm2708.ipk
+Size: 10438
+MD5Sum: f3bf5ed890619cabfe595238f233b4d7
+Description:  Ralink Drivers for RT2x00 cards (RT2500 USB)
+
+Package: kmod-rt2800-lib
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-rt2x00-lib
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 27812
+Filename: kmod-rt2800-lib_3.10+2013-06-27-1_brcm2708.ipk
+Size: 28506
+MD5Sum: 27042742e987a7284a34d98c5558af75
+Description:  Ralink Drivers for RT2x00 cards (rt2800 LIB)
+
+Package: kmod-rt2800-usb
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-rt2x00-usb, kmod-rt2800-lib, kmod-lib-crc-ccitt
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 9935
+Filename: kmod-rt2800-usb_3.10+2013-06-27-1_brcm2708.ipk
+Size: 10731
+MD5Sum: 6103425bac4dd52e82eac71d5d71e66c
+Description:  Ralink Drivers for RT2x00 cards (RT2870 USB)
+
+Package: kmod-rt2x00-lib
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-mac80211, kmod-lib-crc-itu-t
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 19139
+Filename: kmod-rt2x00-lib_3.10+2013-06-27-1_brcm2708.ipk
+Size: 19931
+MD5Sum: badbb22a540e812a7d72d7c9dde920cf
+Description:  Ralink Drivers for RT2x00 cards (LIB)
+
+Package: kmod-rt2x00-usb
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-rt2x00-lib, kmod-usb-core
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 5620
+Filename: kmod-rt2x00-usb_3.10+2013-06-27-1_brcm2708.ipk
+Size: 6413
+MD5Sum: 22f07e099c566bd4713a7199be9759a3
+Description:  Ralink Drivers for RT2x00 cards (USB)
+
+Package: kmod-rt73-usb
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-rt2x00-usb
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 13267
+Filename: kmod-rt73-usb_3.10+2013-06-27-1_brcm2708.ipk
+Size: 14054
+MD5Sum: ba44083bc93e6dc3bb755e7967cf260f
+Description:  Ralink Drivers for RT2x00 cards (RT73 USB)
+
+Package: kmod-rtl8187
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-eeprom-93cx6, kmod-mac80211, kmod-usb-core
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 22176
+Filename: kmod-rtl8187_3.10+2013-06-27-1_brcm2708.ipk
+Size: 22883
+MD5Sum: 3736e8183ae45d1308c6bd06ac90f755
+Description:  Realtek Drivers for RTL818x devices (RTL8187 USB)
+
+Package: kmod-sched-core
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 28432
+Filename: kmod-sched-core_3.10-1_brcm2708.ipk
+Size: 29118
+MD5Sum: 4d4259d30ecf9e405bf22753c7054581
+Description:  Core kernel scheduler support for IP traffic
+
+Package: kmod-sched
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-sched-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 47664
+Filename: kmod-sched_3.10-1_brcm2708.ipk
+Size: 48511
+MD5Sum: 999e8bb658accaddfa47782b51a2eacb
+Description:  Extra kernel schedulers modules for IP traffic
+
+Package: kmod-sound-arm-bcm2835
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-sound-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 8474
+Filename: kmod-sound-arm-bcm2835_3.10-1_brcm2708.ipk
+Size: 9215
+MD5Sum: da2761adb0a53638a5daf3d62abe40ae
+Description:  This package contains the Broadcom 2708/2835 sound driver
+
+Package: kmod-sound-core
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 116609
+Filename: kmod-sound-core_3.10-1_brcm2708.ipk
+Size: 117221
+MD5Sum: 539e6242c2457a4fdc2a093cb69bf3c0
+Description:  Kernel modules for sound support
+
+Package: kmod-stp
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-llc
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 102
+Filename: kmod-stp_3.10-1_brcm2708.ipk
+Size: 688
+MD5Sum: d2faa2095c1fb88c07a6b1e1a100d5ad
+Description:  Kernel module for Ethernet Spanning Tree Protocol support.
+
+Package: kmod-tun
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 11590
+Filename: kmod-tun_3.10-1_brcm2708.ipk
+Size: 12321
+MD5Sum: 65dfeb698a9f666703aac2d478acc07a
+Description:  Kernel support for the TUN/TAP tunneling device
+
+Package: kmod-usb-core
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 105
+Filename: kmod-usb-core_3.10-1_brcm2708.ipk
+Size: 678
+MD5Sum: 207cd553417076294e9307b7046e6c87
+Description:  Kernel support for USB
+
+Package: kmod-usb-hid
+Version: 3.10-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-usb-core, kmod-hid, kmod-input-core, kmod-input-evdev
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm2708
+Installed-Size: 16010
+Filename: kmod-usb-hid_3.10-1_brcm2708.ipk
+Size: 16731
+MD5Sum: dd9479020358204439e983cb122d8f96
+Description:  Kernel support for USB HID devices such as keyboards and mice
+
+Package: kmod-zd1211rw
+Version: 3.10+2013-06-27-1
+Depends: kernel (=3.10-1-28840491ae5df620014ef41c061d10d0), kmod-usb-core, kmod-mac80211
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 39628
+Filename: kmod-zd1211rw_3.10+2013-06-27-1_brcm2708.ipk
+Size: 40347
+MD5Sum: e8deb78261647a0ad214388279276cc6
+Description:  Zydas ZD1211 support
+
+Package: libblobmsg-json
+Version: 2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa
+Depends: libc, libjson-c, libubox
+Source: package/libs/libubox
+SourceFile: libubox-2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa.tar.gz
+SourceURL: git://nbd.name/luci2/libubox.git
+License: ISC BSD-3c
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 2782
+Filename: libblobmsg-json_2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa_brcm2708.ipk
+Size: 3453
+MD5Sum: e9c13a7a07f48f037b1848b15fb72397
+Description:  blobmsg <-> json conversion library
+
+Package: libcurl
+Version: 7.29.0-1
+Depends: libc, libopenssl, zlib
+Source: feeds/packages/libs/curl
+SourceFile: curl-7.29.0.tar.bz2
+SourceURL: http://curl.haxx.se/download/ http://www.mirrorspace.org/curl/ http://curl.mirror.internet.tp/download/ ftp://ftp.sunet.se/pub/www/utilities/curl/ ftp://ftp.planetmirror.com/pub/curl/ http://www.mirrormonster.com/curl/download/ http://curl.mirrors.cyberservers.net/download/
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Architecture: brcm2708
+Installed-Size: 134634
+Filename: libcurl_7.29.0-1_brcm2708.ipk
+Size: 134928
+MD5Sum: 39d427641eafce9962fdb38e958014ab
+Description:  A client-side URL transfer library
+
+Package: libgcc
+Version: 4.6-linaro-1
+Source: package/libs/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 21872
+Filename: libgcc_4.6-linaro-1_brcm2708.ipk
+Size: 22381
+MD5Sum: 517cffd1423c70e2b4bff26aa047e2d5
+Description:  GCC support library
+
+Package: libgcrypt
+Version: 1.5.0-1
+Depends: libc, libgpg-error
+Source: feeds/packages/libs/libgcrypt
+SourceFile: libgcrypt-1.5.0.tar.bz2
+SourceURL: ftp://ftp.gnupg.org/gcrypt/libgcrypt
+Section: libs
+Architecture: brcm2708
+Installed-Size: 151758
+Filename: libgcrypt_1.5.0-1_brcm2708.ipk
+Size: 151141
+MD5Sum: 63a0b5df33e5d37a9f6fa7a0ab6f68d0
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
+Package: libgnutls
+Version: 2.8.6-2
+Depends: libc, zlib, libgcrypt, libgpg-error
+Source: feeds/packages/libs/gnutls
+SourceFile: gnutls-2.8.6.tar.bz2
+SourceURL: @GNU/gnutls ftp://ftp.mirrors.wiretapped.net/pub/security/network-security/gnutls/
+Section: libs
+Architecture: brcm2708
+Installed-Size: 230885
+Filename: libgnutls_2.8.6-2_brcm2708.ipk
+Size: 230844
+MD5Sum: eacd8419191b86a60fd89ec4fe0d8c9d
+Description:  GnuTLS is a project that aims to develop a library which provides a
+ secure layer, over a reliable transport layer. Currently the GnuTLS
+ library implements the SSL 3.0, TLS 1.0, and TLS 1.1 protocols.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libgpg-error
+Version: 1.9-1
+Depends: libc
+Source: feeds/packages/libs/libgpg-error
+SourceFile: libgpg-error-1.9.tar.bz2
+SourceURL: ftp://ftp.gnupg.org/gcrypt/libgpg-error
+Section: libs
+Architecture: brcm2708
+Installed-Size: 4744
+Filename: libgpg-error_1.9-1_brcm2708.ipk
+Size: 5403
+MD5Sum: 6d46082279785ec11770e00813817478
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
+
+Package: libiconv-full
+Version: 1.11.1-1
+Depends: libc
+Source: package/libs/libiconv-full
+SourceFile: libiconv-1.11.1.tar.gz
+SourceURL: @GNU/libiconv
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 69670
+Filename: libiconv-full_1.11.1-1_brcm2708.ipk
+Size: 70261
+MD5Sum: fa8aaf9759e191410a0fd3d3b36fd520
+Description:  Character set conversion library
+
+Package: libintl-full
+Version: 0.18.2.1-1
+Depends: libc
+Source: package/libs/gettext-full
+SourceFile: gettext-0.18.2.1.tar.gz
+SourceURL: @GNU/gettext
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 15422
+Filename: libintl-full_0.18.2.1-1_brcm2708.ipk
+Size: 15977
+MD5Sum: ef18beac0411b7643a863850e9867851
+Description:  GNU Internationalization library
+
+Package: libintl
+Version: 2
+Depends: libc
+Source: package/libs/gettext
+License: FREE
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 167
+Filename: libintl_2_brcm2708.ipk
+Size: 737
+MD5Sum: 868b3e0ff333e9897d7ca744d446fa5f
+Description:  Stub header for the GNU Internationalization library
+
+Package: libip4tc
+Version: 1.4.19.1-1
+Depends: libc
+Source: package/network/utils/iptables
+SourceFile: iptables-1.4.19.1.tar.bz2
+SourceURL: http://www.netfilter.org/projects/iptables/files ftp://ftp.be.netfilter.org/pub/netfilter/iptables/ ftp://ftp.de.netfilter.org/pub/netfilter/iptables/ ftp://ftp.no.netfilter.org/pub/netfilter/iptables/
+Section: libs
+Architecture: brcm2708
+Installed-Size: 11089
+Filename: libip4tc_1.4.19.1-1_brcm2708.ipk
+Size: 11711
+MD5Sum: a0c65282982db7b84280be0eaed1bd02
+Description:  IPv4 firewall - shared libiptc library
+
+Package: libip6tc
+Version: 1.4.19.1-1
+Depends: libc
+Source: package/network/utils/iptables
+SourceFile: iptables-1.4.19.1.tar.bz2
+SourceURL: http://www.netfilter.org/projects/iptables/files ftp://ftp.be.netfilter.org/pub/netfilter/iptables/ ftp://ftp.de.netfilter.org/pub/netfilter/iptables/ ftp://ftp.no.netfilter.org/pub/netfilter/iptables/
+Section: libs
+Architecture: brcm2708
+Installed-Size: 11433
+Filename: libip6tc_1.4.19.1-1_brcm2708.ipk
+Size: 12054
+MD5Sum: 5f4a82e5c58c16a02e507f0e56232c2b
+Description:  IPv6 firewall - shared libiptc library
+
+Package: libiw
+Version: 29-5
+Depends: libc
+Source: package/network/utils/wireless-tools
+SourceFile: wireless_tools.29.tar.gz
+SourceURL: http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 12427
+Filename: libiw_29-5_brcm2708.ipk
+Size: 13104
+MD5Sum: f18afc38cbd75e5c9ddb0ae3810cf0cf
+Description:  This package contains a library for manipulating
+ "Linux Wireless Extensions".
+
+Package: libiwinfo-lua
+Version: 46
+Depends: libc, libiwinfo, liblua
+Source: package/network/utils/iwinfo
+Section: lang
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: brcm2708
+Installed-Size: 7402
+Filename: libiwinfo-lua_46_brcm2708.ipk
+Size: 7976
+MD5Sum: 9887b6ac1bf163a894df3c517dc54356
+Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
+ backends.
+
+Package: libiwinfo
+Version: 46
+Depends: libc, libnl-tiny
+Source: package/network/utils/iwinfo
+Section: libs
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: brcm2708
+Installed-Size: 22427
+Filename: libiwinfo_46_brcm2708.ipk
+Size: 22999
+MD5Sum: 7cc3e285f21e880a0fe43ea1112b9c8f
+Description:  Wireless information library with consistent interface for proprietary Broadcom,
+ madwifi, nl80211 and wext driver interfaces.
+
+Package: libjson-c
+Version: 0.11-2
+Depends: libc
+Source: package/libs/libjson-c
+SourceFile: json-c-0.11.tar.gz
+SourceURL: https://s3.amazonaws.com/json-c_releases/releases/
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 13120
+Filename: libjson-c_0.11-2_brcm2708.ipk
+Size: 13748
+MD5Sum: 09ece7d818668c710ec7491c87a2b7b2
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script
+Version: 2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa
+Depends: libc, libubox
+Source: package/libs/libubox
+SourceFile: libubox-2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa.tar.gz
+SourceURL: git://nbd.name/luci2/libubox.git
+License: ISC BSD-3c
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 3653
+Filename: libjson-script_2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa_brcm2708.ipk
+Size: 4335
+MD5Sum: 7e5df15e5d1bba5fe308a1223e1209e3
+Description:  Minimalistic JSON based scripting engine
+
+Package: libjson
+Version: 0.11-2
+Depends: libc, libjson-c
+Source: package/libs/libjson-c
+SourceFile: json-c-0.11.tar.gz
+SourceURL: https://s3.amazonaws.com/json-c_releases/releases/
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 740
+Filename: libjson_0.11-2_brcm2708.ipk
+Size: 1430
+MD5Sum: 3458cc938034ed5b2ea5671882ed2c61
+Description:  This package contains a compatibility library for packages that have not
+ been adapted to the json-c library rename yet
+
+Package: libltdl
+Version: 2.4-1
+Depends: libc
+Source: package/libs/libtool
+SourceFile: libtool-2.4.tar.gz
+SourceURL: @GNU/libtool
+License: GPLv2
+LicenseFiles: COPYING
+Section: libs
+Architecture: brcm2708
+Installed-Size: 14635
+Filename: libltdl_2.4-1_brcm2708.ipk
+Size: 15185
+MD5Sum: 1e612fc91b5aaaa72146ca1d4e76ef87
+Description:  A generic dynamic object loading library
+
+Package: liblua
+Version: 5.1.5-1
+Depends: libc
+Source: package/utils/lua
+SourceFile: lua-5.1.5.tar.gz
+SourceURL: http://www.lua.org/ftp/ http://ftp.gwdg.de/pub/languages/lua/ http://mirrors.dotsrc.org/lua/ http://www.tecgraf.puc-rio.br/lua/ftp/
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 67068
+Filename: liblua_5.1.5-1_brcm2708.ipk
+Size: 67380
+MD5Sum: 52eee5b4194b1be81cd008c13c49310e
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmysqlclient
+Version: 5.1.68-1
+Depends: libc, uclibcxx, zlib
+Source: feeds/packages/libs/mysql
+SourceFile: mysql-5.1.68.tar.gz
+SourceURL: http://mysql.he.net/Downloads/MySQL-5.1/ http://www.linorg.usp.br/mysql/Downloads/MySQL-5.1/ http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQL-5.1/ http://mirror.switch.ch/ftp/mirror/mysql/Downloads/MySQL-5.1/ http://downloads.mysql.com/archives/mysql-5.1/
+Section: libs
+Architecture: brcm2708
+Installed-Size: 161890
+Filename: libmysqlclient_5.1.68-1_brcm2708.ipk
+Size: 157130
+MD5Sum: 3a62fb939a9b90841896a85f9fc8bc9a
+Description:  MySQL client library
+
+Package: libncurses
+Version: 5.9-1
+Depends: libc, terminfo
+Source: package/libs/ncurses
+SourceFile: ncurses-5.9.tar.gz
+SourceURL: @GNU/ncurses
+License: FREE
+LicenseFiles: README
+Section: libs
+Architecture: brcm2708
+Installed-Size: 127544
+Filename: libncurses_5.9-1_brcm2708.ipk
+Size: 125403
+MD5Sum: c4508c22fb6912cc84beadea475d7d8d
+Description:  Terminal handling library
+
+Package: libncursesw
+Version: 5.9-1
+Depends: libc
+Source: package/libs/ncurses
+SourceFile: ncurses-5.9.tar.gz
+SourceURL: @GNU/ncurses
+License: FREE
+LicenseFiles: README
+Section: libs
+Architecture: brcm2708
+Installed-Size: 143710
+Filename: libncursesw_5.9-1_brcm2708.ipk
+Size: 140486
+MD5Sum: f7fe55ec42a7bd296cc3ce16a5916ff9
+Description:  Terminal handling library (Unicode)
+
+Package: libnl-tiny
+Version: 0.1-3
+Depends: libc
+Source: package/libs/libnl-tiny
+License: GPLv2 LGPLv2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 13593
+Filename: libnl-tiny_0.1-3_brcm2708.ipk
+Size: 14073
+MD5Sum: f0450656c8af86e89e4b6ff089d27427
+Description:  This package contains a stripped down version of libnl
+
+Package: libopenssl
+Version: 1.0.1e-1
+Depends: libc, zlib
+Source: package/libs/openssl
+SourceFile: openssl-1.0.1e.tar.gz
+SourceURL: http://www.openssl.org/source/ ftp://ftp.funet.fi/pub/crypt/mirrors/ftp.openssl.org/source ftp://ftp.sunet.se/pub/security/tools/net/openssl/source/
+License: SSLEAY OPENSSL
+LicenseFiles: LICENSE
+Section: libs
+Architecture: brcm2708
+Installed-Size: 619617
+Filename: libopenssl_1.0.1e-1_brcm2708.ipk
+Size: 613008
+MD5Sum: f3b17f0acdb647fcc0059a9d6767cf46
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libpthread
+Version: 0.9.33.2-1
+Depends: libgcc
+Source: package/libs/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 27373
+Filename: libpthread_0.9.33.2-1_brcm2708.ipk
+Size: 27961
+MD5Sum: b50cb11109a075d1216746b4bf2a12af
+Description:  POSIX thread library
+
+Package: libreadline
+Version: 6.2-1
+Depends: libc
+Source: package/libs/libreadline
+SourceFile: readline-6.2.tar.gz
+SourceURL: @GNU/readline
+License: GPLv3
+LicenseFiles: COPYING
+Section: libs
+Architecture: brcm2708
+Installed-Size: 132734
+Filename: libreadline_6.2-1_brcm2708.ipk
+Size: 131935
+MD5Sum: ef20615c350bcb84dc54679b63106263
+Description:  The Readline library provides a set of functions for use by applications 
+ that allow users to edit command lines as they are typed in. Both Emacs 
+ and vi editing modes are available. The Readline library includes 
+ additional functions to maintain a list of previously-entered command 
+ lines, to recall and perhaps reedit those lines, and perform csh-like 
+ history expansion on previous commands.
+
+Package: librpc
+Version: 0.9.32-rc2-0a2179bbc0844928f2a0ec01dba93d9b5d6d41a7
+Depends: libc
+Source: package/libs/librpc
+SourceFile: librpc-0.9.32-rc2-0a2179bbc0844928f2a0ec01dba93d9b5d6d41a7.tar.gz
+SourceURL: git://nbd.name/uclibc-rpc.git
+License: GPLv2 LGPLv2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 29193
+Filename: librpc_0.9.32-rc2-0a2179bbc0844928f2a0ec01dba93d9b5d6d41a7_brcm2708.ipk
+Size: 29679
+MD5Sum: b10e0bc11b3782c245d641b9e25afbb9
+Description:  uClibc RPC library
+
+Package: librrd1
+Version: 1.0.50-2
+Depends: libc, zlib
+Source: feeds/packages/libs/rrdtool-1.0.x
+SourceFile: rrdtool-1.0.50.tar.gz
+SourceURL: http://oss.oetiker.ch/rrdtool/pub/rrdtool-1.0.x http://www.fastmirrors.org/rrdtool/rrdtool-1.0.x ftp://ftp.sunet.se/pub/network/monitoring/rrdtool/rrdtool-1.0.x
+Section: libs
+Architecture: brcm2708
+Installed-Size: 140838
+Filename: librrd1_1.0.50-2_brcm2708.ipk
+Size: 141149
+MD5Sum: 56a645b4103e4d4ee893c5ae49752a9a
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains a shared library, used by other programs.
+
+Package: librt
+Version: 0.9.33.2-1
+Depends: libpthread
+Source: package/libs/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 4317
+Filename: librt_0.9.33.2-1_brcm2708.ipk
+Size: 4907
+MD5Sum: 2ecaf96a83a8f69bdb2e6c9b9802679e
+Description:  POSIX.1b RealTime extension library
+
+Package: libubox
+Version: 2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa
+Depends: libc
+Source: package/libs/libubox
+SourceFile: libubox-2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa.tar.gz
+SourceURL: git://nbd.name/luci2/libubox.git
+License: ISC BSD-3c
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 11302
+Filename: libubox_2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa_brcm2708.ipk
+Size: 11924
+MD5Sum: 1f5eba98bf707bb0dc732bd816e3d31e
+Description:  Basic utility library
+
+Package: libubus-lua
+Version: 2013-05-30-f72dca720bb50d45b1b01bab5b01cb80c78c5230
+Depends: libc, libubus, liblua
+Source: package/system/ubus
+SourceFile: ubus-2013-05-30-f72dca720bb50d45b1b01bab5b01cb80c78c5230.tar.gz
+SourceURL: git://nbd.name/luci2/ubus.git
+License: LGPLv2.1
+Section: luci2
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 4373
+Filename: libubus-lua_2013-05-30-f72dca720bb50d45b1b01bab5b01cb80c78c5230_brcm2708.ipk
+Size: 4986
+MD5Sum: 784cff8a109367934198d280c002bc2a
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libubus
+Version: 2013-05-30-f72dca720bb50d45b1b01bab5b01cb80c78c5230
+Depends: libc, libubox
+Source: package/system/ubus
+SourceFile: ubus-2013-05-30-f72dca720bb50d45b1b01bab5b01cb80c78c5230.tar.gz
+SourceURL: git://nbd.name/luci2/ubus.git
+License: LGPLv2.1
+Section: luci2
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 6585
+Filename: libubus_2013-05-30-f72dca720bb50d45b1b01bab5b01cb80c78c5230_brcm2708.ipk
+Size: 7208
+MD5Sum: 76dceab4fbc516e0528cd1a37609e714
+Description:  OpenWrt RPC client library
+
+Package: libuci-lua
+Version: 2013-06-11.1-1
+Depends: libc, libuci, liblua
+Source: package/system/uci
+SourceFile: uci-2013-06-11.1.tar.gz
+SourceURL: git://nbd.name/uci.git
+License: LGPLv2.1 GPLv2
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 5182
+Filename: libuci-lua_2013-06-11.1-1_brcm2708.ipk
+Size: 5777
+MD5Sum: 63aa48580e5a3c97c79cb321e50b9a4e
+Description:  Lua plugin for UCI
+
+Package: libuci
+Version: 2013-06-11.1-1
+Depends: libc, libubox
+Source: package/system/uci
+SourceFile: uci-2013-06-11.1.tar.gz
+SourceURL: git://nbd.name/uci.git
+License: LGPLv2.1 GPLv2
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 13804
+Filename: libuci_2013-06-11.1-1_brcm2708.ipk
+Size: 14461
+MD5Sum: 4e054464466693d720ac75b7c7ddfe28
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libusb-1.0
+Version: 1.0.9-1
+Depends: libc, libpthread, librt
+Source: package/libs/libusb
+SourceFile: libusb-1.0.9.tar.bz2
+SourceURL: @SF/libusb
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 23774
+Filename: libusb-1.0_1.0.9-1_brcm2708.ipk
+Size: 24418
+MD5Sum: c0ec414400679ae21f4aa9c2d8041cff
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
+
+Package: libusb-compat
+Version: 0.1.4-1
+Depends: libc, libusb-1.0
+Source: package/libs/libusb-compat
+SourceFile: libusb-compat-0.1.4.tar.bz2
+SourceURL: @SF/libusb
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 5737
+Filename: libusb-compat_0.1.4-1_brcm2708.ipk
+Size: 6388
+MD5Sum: 02d7d4a017bcf3e4fec2ec43b8dd221b
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
+
+Package: libxtables
+Version: 1.4.19.1-1
+Depends: libc
+Source: package/network/utils/iptables
+SourceFile: iptables-1.4.19.1.tar.bz2
+SourceURL: http://www.netfilter.org/projects/iptables/files ftp://ftp.be.netfilter.org/pub/netfilter/iptables/ ftp://ftp.de.netfilter.org/pub/netfilter/iptables/ ftp://ftp.no.netfilter.org/pub/netfilter/iptables/
+Section: libs
+Architecture: brcm2708
+Installed-Size: 17651
+Filename: libxtables_1.4.19.1-1_brcm2708.ipk
+Size: 18280
+MD5Sum: 8c29e926f5f9db4a10c5154beb734b6b
+Description:  IPv4/IPv6 firewall - shared xtables library
+
+Package: libzip-utils
+Version: 0.10.1-1
+Depends: libc, libzip
+Source: feeds/packages/libs/libzip
+SourceFile: libzip-0.10.1.tar.bz2
+SourceURL: http://www.nih.at/libzip/
+Section: utils
+Architecture: brcm2708
+Installed-Size: 6817
+Filename: libzip-utils_0.10.1-1_brcm2708.ipk
+Size: 7411
+MD5Sum: dd5316185bd227856632b789f859485a
+Description:  package contains binaries from libzip library (zipcmp, ziptorrent, zipmerge)
+
+Package: libzip
+Version: 0.10.1-1
+Depends: libc, zlib
+Source: feeds/packages/libs/libzip
+SourceFile: libzip-0.10.1.tar.bz2
+SourceURL: http://www.nih.at/libzip/
+Section: libs
+Architecture: brcm2708
+Installed-Size: 19877
+Filename: libzip_0.10.1-1_brcm2708.ipk
+Size: 20427
+MD5Sum: e715a0a992587773ea7a38f4c4eee0aa
+Description:  C library for reading, creating, and modifying zip archives
+
+Package: lua
+Version: 5.1.5-1
+Depends: libc, liblua
+Source: package/utils/lua
+SourceFile: lua-5.1.5.tar.gz
+SourceURL: http://www.lua.org/ftp/ http://ftp.gwdg.de/pub/languages/lua/ http://mirrors.dotsrc.org/lua/ http://www.tecgraf.puc-rio.br/lua/ftp/
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 4246
+Filename: lua_5.1.5-1_brcm2708.ipk
+Size: 5018
+MD5Sum: b0a08acc71e13f175baaae821c47e7e7
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: luci-app-ahcp
+Version: svn-r9868-1
+Depends: libc, ahcpd
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 16688
+Filename: luci-app-ahcp_svn-r9868-1_brcm2708.ipk
+Size: 17265
+MD5Sum: fbbdda47866a6ed14c480cc181c5f51b
+Description:  LuCI Support for AHCPd
+
+Package: luci-app-bmx6
+Version: 2
+Depends: libc, luci-lib-json, luci-mod-admin-core, luci-lib-httpclient, bmx6
+Source: feeds/routing/luci-app-bmx6
+Section: luci
+Maintainer: Pau Escrich <p4u@dabax.net>
+Architecture: brcm2708
+Installed-Size: 93634
+Filename: luci-app-bmx6_2_brcm2708.ipk
+Size: 94369
+MD5Sum: d22f3fdc7921d9c538da21daf915ccbb
+Description:  bmx6 web module for LuCi web interface
+
+Package: luci-app-firewall
+Version: svn-r9868-1
+Depends: libc, firewall
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 54740
+Filename: luci-app-firewall_svn-r9868-1_brcm2708.ipk
+Size: 55415
+MD5Sum: 9666faff8863d2bbfe3368de9beda2af
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-freifunk-policyrouting
+Version: svn-r9868-1
+Depends: libc, freifunk-policyrouting
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 5258
+Filename: luci-app-freifunk-policyrouting_svn-r9868-1_brcm2708.ipk
+Size: 5834
+MD5Sum: df7466fdab467a79239a04074c0f8af1
+Description:  Policy routing for mesh traffic
+
+Package: luci-app-freifunk-widgets
+Version: svn-r9868-1
+Depends: libc, luci-mod-freifunk
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 4505
+Filename: luci-app-freifunk-widgets_svn-r9868-1_brcm2708.ipk
+Size: 5100
+MD5Sum: 68bc1d3d3d3e73f9c47632ab45b9cb97
+Description:  Widgets for the Freifunk index page
+
+Package: luci-app-olsr-services
+Version: svn-r9868-1
+Depends: libc, luci-app-olsr, olsrd-mod-nameservice
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 2078
+Filename: luci-app-olsr-services_svn-r9868-1_brcm2708.ipk
+Size: 2685
+MD5Sum: 2e82d0d7016c993a78fd00274c248af0
+Description:  Show services announced with the nameservice plugin
+
+Package: luci-app-olsr-viz
+Version: svn-r9868-1
+Depends: libc, luci-app-olsr, olsrd-mod-txtinfo
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 11421
+Filename: luci-app-olsr-viz_svn-r9868-1_brcm2708.ipk
+Size: 12025
+MD5Sum: 1449381c0ca32f29bf7a823f41197d93
+Description:  OLSR Visualisation
+
+Package: luci-app-olsr
+Version: svn-r9868-1
+Depends: libc, olsrd, olsrd-mod-jsoninfo, luci-lib-luaneightbl
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 53717
+Filename: luci-app-olsr_svn-r9868-1_brcm2708.ipk
+Size: 54531
+MD5Sum: c78961d38e623c20d1854572f132c9f3
+Description:  OLSR configuration and status module
+
+Package: luci-app-splash
+Version: svn-r9868-1
+Depends: libc, luci-lib-nixio, tc, kmod-sched, iptables-mod-nat-extra, iptables-mod-ipopt
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 33443
+Filename: luci-app-splash_svn-r9868-1_brcm2708.ipk
+Size: 34341
+MD5Sum: 59d72d52c6c463737a927edcacd3938e
+Description:  Freifunk DHCP-Splash application
+
+Package: luci-app-statistics
+Version: svn-r9868-1
+Depends: libc, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-interface, collectd-mod-load
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 90143
+Filename: luci-app-statistics_svn-r9868-1_brcm2708.ipk
+Size: 91055
+MD5Sum: 5aa8ede470cc1f5534ebad3f83c3c60e
+Description:  LuCI Statistics Application
+
+Package: luci-app-watchcat
+Version: svn-r9868-1
+Depends: libc, watchcat
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 7276
+Filename: luci-app-watchcat_svn-r9868-1_brcm2708.ipk
+Size: 8020
+MD5Sum: 3e2809b8410fda299697a6be64422f56
+Description:  LuCI Support for Watchcat
+
+Package: luci-i18n-english
+Version: svn-r9868-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 527
+Filename: luci-i18n-english_svn-r9868-1_brcm2708.ipk
+Size: 1216
+MD5Sum: c7a1c131771b60f8579afc34ddead172
+Description:  English
+
+Package: luci-i18n-german
+Version: svn-r9868-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 20827
+Filename: luci-i18n-german_svn-r9868-1_brcm2708.ipk
+Size: 21528
+MD5Sum: b4439cedd39a91ea0b3d99549d61bd86
+Description:  German
+
+Package: luci-lib-core
+Version: svn-r9868-1
+Depends: libc, lua, libuci-lua, libubus-lua
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 29737
+Filename: luci-lib-core_svn-r9868-1_brcm2708.ipk
+Size: 30339
+MD5Sum: 269fec57d35a69b8af423ff7952106e5
+Description:  LuCI core libraries
+
+Package: luci-lib-fastindex
+Version: svn-r9868-1
+Depends: libc, luci-lib-core, liblua
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 3198
+Filename: luci-lib-fastindex_svn-r9868-1_brcm2708.ipk
+Size: 3769
+MD5Sum: f2481025ffa988e9c33f69ad799bd72b
+Description:  Fastindex indexing module
+
+Package: luci-lib-httpclient
+Version: svn-r9868-1
+Depends: libc, luci-lib-core, luci-lib-web, luci-lib-nixio
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 4872
+Filename: luci-lib-httpclient_svn-r9868-1_brcm2708.ipk
+Size: 5445
+MD5Sum: baa47457afc6b8cf0a0875e7f4130d3b
+Description:  HTTP(S) client library
+
+Package: luci-lib-ipkg
+Version: svn-r9868-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 2306
+Filename: luci-lib-ipkg_svn-r9868-1_brcm2708.ipk
+Size: 2879
+MD5Sum: baafc0ee0ebc5c056a844807e61f1132
+Description:  LuCI IPKG/OPKG call abstraction library
+
+Package: luci-lib-json
+Version: svn-r9868-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 3937
+Filename: luci-lib-json_svn-r9868-1_brcm2708.ipk
+Size: 4524
+MD5Sum: 410966cf9b245d76d9a4d5d26344b3de
+Description:  LuCI JSON library
+
+Package: luci-lib-luaneightbl
+Version: svn-r9868-1
+Depends: libc, luci-lib-core, luci-lib-core
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 1991
+Filename: luci-lib-luaneightbl_svn-r9868-1_brcm2708.ipk
+Size: 2604
+MD5Sum: f0558f0729be2b415f26c3be5fc22737
+Description:  neightbl - Lua lib for IPv6 neighbors
+
+Package: luci-lib-lucid-http
+Version: svn-r9868-1
+Depends: libc, luci-lib-core, luci-lib-lucid
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 9104
+Filename: luci-lib-lucid-http_svn-r9868-1_brcm2708.ipk
+Size: 9691
+MD5Sum: 759734a2635db0d8d3888778e5a87ac7
+Description:  LuCId HTTP Backend
+
+Package: luci-lib-lucid-rpc
+Version: svn-r9868-1
+Depends: libc, luci-lib-core, luci-lib-lucid
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 4453
+Filename: luci-lib-lucid-rpc_svn-r9868-1_brcm2708.ipk
+Size: 5020
+MD5Sum: 702b71c3f0666ff91f2665d0daeadf46
+Description:  LuCId RPC Backend
+
+Package: luci-lib-lucid
+Version: svn-r9868-1
+Depends: libc, luci-lib-core, luci-lib-nixio, luci-lib-web, luci-lib-px5g
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 5820
+Filename: luci-lib-lucid_svn-r9868-1_brcm2708.ipk
+Size: 6413
+MD5Sum: 3240ddbf5ce08b19f20478e6c38aa316
+Description:  LuCId Full-Stack Webserver
+
+Package: luci-lib-nixio
+Version: svn-r9868-1
+Depends: libc, luci-lib-core
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 30368
+Filename: luci-lib-nixio_svn-r9868-1_brcm2708.ipk
+Size: 30636
+MD5Sum: be3dc848ab4fc6ebafce2eefa5ad80d4
+Description:  NIXIO POSIX library
+
+Package: luci-lib-px5g
+Version: svn-r9868-1
+Depends: libc, luci-lib-core, luci-lib-nixio
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 25797
+Filename: luci-lib-px5g_svn-r9868-1_brcm2708.ipk
+Size: 26165
+MD5Sum: 1132a245a345a62f0eac348084133aab
+Description:  RSA/X.509 Key Generator (required for LuCId SSL support)
+
+Package: luci-lib-sys
+Version: svn-r9868-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 15893
+Filename: luci-lib-sys_svn-r9868-1_brcm2708.ipk
+Size: 16452
+MD5Sum: a7c960694aa4053d92ce837625fd6760
+Description:  LuCI Linux/POSIX system library
+
+Package: luci-lib-web
+Version: svn-r9868-1
+Depends: libc, luci-lib-core, luci-lib-sys, luci-lib-nixio, luci-lib-core, luci-sgi-cgi
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 64160
+Filename: luci-lib-web_svn-r9868-1_brcm2708.ipk
+Size: 64901
+MD5Sum: a1af44b4783200fd65c96156f23153ac
+Description:  MVC Webframework
+
+Package: luci-mod-admin-core
+Version: svn-r9868-1
+Depends: libc, luci-lib-web, luci-proto-core, luci-i18n-english
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 5114
+Filename: luci-mod-admin-core_svn-r9868-1_brcm2708.ipk
+Size: 5825
+MD5Sum: 836bd1a08988287569c09cf6a571377c
+Description:  Web UI Core module
+
+Package: luci-mod-admin-full
+Version: svn-r9868-1
+Depends: libc, luci-mod-admin-core, luci-lib-ipkg
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 68460
+Filename: luci-mod-admin-full_svn-r9868-1_brcm2708.ipk
+Size: 69211
+MD5Sum: 6ef7a3680bb6f2b5e5f0c78910e1a82b
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-mod-freifunk
+Version: svn-r9868-1
+Depends: libc, luci-mod-admin-full, luci-lib-json, freifunk-firewall, freifunk-common
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 45744
+Filename: luci-mod-freifunk_svn-r9868-1_brcm2708.ipk
+Size: 46475
+MD5Sum: 505ed1f5996c5c8dfd925c4d24815291
+Description:  LuCI Freifunk module
+
+Package: luci-mod-rpc
+Version: svn-r9868-1
+Depends: libc, luci-lib-json
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 2659
+Filename: luci-mod-rpc_svn-r9868-1_brcm2708.ipk
+Size: 3245
+MD5Sum: b59f6b88ffd6183d0a847c7d39c52206
+Description:  LuCI RPC - JSON-RPC API
+
+Package: luci-proto-core
+Version: svn-r9868-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 1973
+Filename: luci-proto-core_svn-r9868-1_brcm2708.ipk
+Size: 2554
+MD5Sum: bf6aef40989538824e96082c2b1d2c3b
+Description:  Support for static/dhcp/none
+
+Package: luci-sgi-cgi
+Version: svn-r9868-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 1457
+Filename: luci-sgi-cgi_svn-r9868-1_brcm2708.ipk
+Size: 2071
+MD5Sum: ef2c924b635ed3d02baf9ab4ebc6e7ce
+Description:  CGI Gateway behind existing Webserver
+
+Package: luci-sgi-uhttpd
+Version: svn-r9868-1
+Depends: libc, uhttpd, uhttpd-mod-lua
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 1492
+Filename: luci-sgi-uhttpd_svn-r9868-1_brcm2708.ipk
+Size: 2105
+MD5Sum: 12f98b458d1f8d896e778e2cfbb26803
+Description:  Binding for the uHTTPd server
+
+Package: luci-theme-base
+Version: svn-r9868-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 23673
+Filename: luci-theme-base_svn-r9868-1_brcm2708.ipk
+Size: 24236
+MD5Sum: 0c6a310e406fa15b2f95f907fc48c002
+Description:  Common base for all themes
+
+Package: luci-theme-bootstrap
+Version: svn-r9868-1
+Depends: libc, luci-theme-base
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 13017
+Filename: luci-theme-bootstrap_svn-r9868-1_brcm2708.ipk
+Size: 13702
+MD5Sum: a730d5fcc70082753db1c7a4eaf992aa
+Description:  Bootstrap Theme (default)
+
+Package: luci-theme-freifunk-generic
+Version: svn-r9868-1
+Depends: libc, luci-theme-base
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: Manuel Munz <freifunk-at-somakoma-dot-de>
+Architecture: brcm2708
+Installed-Size: 13013
+Filename: luci-theme-freifunk-generic_svn-r9868-1_brcm2708.ipk
+Size: 13722
+MD5Sum: 8a4328a6da4e95f0ca7ca3f19d5a5c64
+Description:  Freifunk Generic Theme
+
+Package: luci-theme-openwrt
+Version: svn-r9868-1
+Depends: libc, luci-theme-base
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: brcm2708
+Installed-Size: 7030
+Filename: luci-theme-openwrt_svn-r9868-1_brcm2708.ipk
+Size: 7774
+MD5Sum: 4d804da446ec11b684010fa070c74d93
+Description:  OpenWrt.org
+
+Package: meshwizard
+Version: 0.0.11
+Depends: libc, firewall
+Source: feeds/luci/contrib/package/meshwizard
+Section: luci
+Architecture: brcm2708
+Installed-Size: 11976
+Filename: meshwizard_0.0.11_brcm2708.ipk
+Size: 12572
+MD5Sum: 7a57ec08af816dd6daed42f84f6f572c
+Description:  A shellscript based wizard to simplify the setup of a typical mesh node (e.g. for Freifunk.net)
+
+Package: mini-sendmail
+Version: 1.3.6-4
+Depends: libc
+Source: feeds/packages/mail/mini_sendmail
+SourceFile: mini_sendmail-1.3.6.tar.gz
+SourceURL: http://www.acme.com/software/mini_sendmail/
+Section: mail
+Architecture: brcm2708
+Installed-Size: 5104
+Filename: mini-sendmail_1.3.6-4_brcm2708.ipk
+Size: 5877
+MD5Sum: abcbb77960276bf26f9ffc8bdd0084c3
+Description:  mini_sendmail reads its standard input up to an end-of-file and sends a
+ copy of the message found there to all of the addresses listed.
+ The message is sent by connecting to a local SMTP server. This means
+ mini_sendmail can be used to send email from inside a chroot(2) area.
+
+Package: mtd
+Version: 20
+Depends: libc
+Source: package/system/mtd
+License: GPLv2 GPLv2+
+Section: utils
+Architecture: brcm2708
+Installed-Size: 8517
+Filename: mtd_20_brcm2708.ipk
+Size: 9107
+MD5Sum: bf166fe3b2de041adcb55b48de0c7035
+Description:  This package contains an utility useful to upgrade from other firmware or 
+ older OpenWrt releases.
+
+Package: mutt
+Version: 1.5.21-1
+Depends: libc, libopenssl, libncursesw
+Source: feeds/packages/mail/mutt
+SourceFile: mutt-1.5.21.tar.gz
+SourceURL: @SF/mutt
+Section: mail
+Architecture: brcm2708
+Installed-Size: 338156
+Filename: mutt_1.5.21-1_brcm2708.ipk
+Size: 338177
+MD5Sum: 532127dd158edd0d475ab7f23deea9f1
+Description:  Mutt is a small but very powerful text-based mail client for Unix
+ operating systems.
+
+Package: mysql-server
+Version: 5.1.68-1
+Depends: libc, libmysqlclient, libpthread, libncursesw, libreadline
+Source: feeds/packages/libs/mysql
+SourceFile: mysql-5.1.68.tar.gz
+SourceURL: http://mysql.he.net/Downloads/MySQL-5.1/ http://www.linorg.usp.br/mysql/Downloads/MySQL-5.1/ http://www.mirrorservice.org/sites/ftp.mysql.com/Downloads/MySQL-5.1/ http://mirror.switch.ch/ftp/mirror/mysql/Downloads/MySQL-5.1/ http://downloads.mysql.com/archives/mysql-5.1/
+Section: utils
+Architecture: brcm2708
+Installed-Size: 2389401
+Filename: mysql-server_5.1.68-1_brcm2708.ipk
+Size: 2369808
+MD5Sum: 06bd46f1eee7d2ca20373dfa6f1c13c7
+Description:  MySQL Server
+
+Package: nano
+Version: 2.2.6-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/nano
+SourceFile: nano-2.2.6.tar.gz
+SourceURL: http://www.nano-editor.org/dist/v2.2
+Section: utils
+Maintainer: Bernhard Loos <bernhardloos@googlemail.com>
+Architecture: brcm2708
+Installed-Size: 32691
+Filename: nano_2.2.6-1_brcm2708.ipk
+Size: 33415
+MD5Sum: d949d0407d6ca9de5e0befd6447d75e4
+Description:  GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: netifd
+Version: 2013-06-18.1-987bdc77deecb928d86b9d710cc3bcfa5b3d80eb
+Depends: libc, libuci, libnl-tiny, libubus, ubus, ubusd, jshn
+Source: package/network/config/netifd
+SourceFile: netifd-2013-06-18.1-987bdc77deecb928d86b9d710cc3bcfa5b3d80eb.tar.gz
+SourceURL: git://nbd.name/luci2/netifd.git
+License: GPLv2
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 43323
+Filename: netifd_2013-06-18.1-987bdc77deecb928d86b9d710cc3bcfa5b3d80eb_brcm2708.ipk
+Size: 43985
+MD5Sum: 6961efb3d0ef65f558932b7ac12f9ed5
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: ngircd
+Version: 18-1
+Depends: libc, zlib, libopenssl
+Source: feeds/packages/net/ngircd
+SourceFile: ngircd-18.tar.gz
+SourceURL: http://ngircd.barton.de/pub/ngircd/ ftp://ftp.berlios.de/pub/ngircd/
+Section: net
+Architecture: brcm2708
+Installed-Size: 75817
+Filename: ngircd_18-1_brcm2708.ipk
+Size: 76542
+MD5Sum: 31b09a6b0728df569b8bdabc3eab2a85
+Description:  ngIRCd is an Open Source server for the Internet Relay Chat (IRC), which
+ is developed and published under the terms of the GNU General Public Licence.
+ ngIRCd means "next generation IRC daemon", it's written from scratch and
+ not deduced from the "grandfather of IRC daemons", the daemon of the IRCNet.
+ This package is built with OpenSSL support.
+
+Package: odhcp6c
+Version: 2013-07-03-007ae1a6ae8092878adccde1f610ea9dd86e5aad
+Depends: libc, kmod-ipv6
+Source: package/network/ipv6/odhcp6c
+SourceFile: odhcp6c-2013-07-03.tar.bz2
+SourceURL: git://github.com/sbyx/odhcp6c.git
+Section: net
+Maintainer: Steven Barth <steven@midlink.org>
+Architecture: brcm2708
+Installed-Size: 17680
+Filename: odhcp6c_2013-07-03-007ae1a6ae8092878adccde1f610ea9dd86e5aad_brcm2708.ipk
+Size: 18325
+MD5Sum: e9e482a2a38f624eb78d32e32d63c41b
+Description:  Embedded DHCPv6-client for OpenWrt
+
+Package: olsrd-mod-arprefresh
+Version: 0.6.5.4-1
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceFile: olsrd-0.6.5.4.tar.bz2
+SourceURL: http://www.olsr.org/releases/0.6
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: brcm2708
+Installed-Size: 1928
+Filename: olsrd-mod-arprefresh_0.6.5.4-1_brcm2708.ipk
+Size: 2555
+MD5Sum: 1f31c6d300047176298876442eb1a8e2
+Description:  Kernel ARP cache refresh plugin
+
+Package: olsrd-mod-bmf
+Version: 0.6.5.4-1
+Depends: libc, olsrd, kmod-tun
+Source: feeds/routing/olsrd
+SourceFile: olsrd-0.6.5.4.tar.bz2
+SourceURL: http://www.olsr.org/releases/0.6
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: brcm2708
+Installed-Size: 13103
+Filename: olsrd-mod-bmf_0.6.5.4-1_brcm2708.ipk
+Size: 13738
+MD5Sum: 1570647906eb629521a334edac160d80
+Description:  Basic multicast forwarding plugin
+
+Package: olsrd-mod-dot-draw
+Version: 0.6.5.4-1
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceFile: olsrd-0.6.5.4.tar.bz2
+SourceURL: http://www.olsr.org/releases/0.6
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: brcm2708
+Installed-Size: 3945
+Filename: olsrd-mod-dot-draw_0.6.5.4-1_brcm2708.ipk
+Size: 4546
+MD5Sum: dec490ba9f04f132129462c2a351fbb4
+Description:  Dot topology information plugin
+
+Package: olsrd-mod-dyn-gw-plain
+Version: 0.6.5.4-1
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceFile: olsrd-0.6.5.4.tar.bz2
+SourceURL: http://www.olsr.org/releases/0.6
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: brcm2708
+Installed-Size: 2058
+Filename: olsrd-mod-dyn-gw-plain_0.6.5.4-1_brcm2708.ipk
+Size: 2690
+MD5Sum: c22ec74b0acb4df6457c30534823ee8d
+Description:  Dynamic internet gateway plain plugin
+
+Package: olsrd-mod-httpinfo
+Version: 0.6.5.4-1
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceFile: olsrd-0.6.5.4.tar.bz2
+SourceURL: http://www.olsr.org/releases/0.6
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: brcm2708
+Installed-Size: 28087
+Filename: olsrd-mod-httpinfo_0.6.5.4-1_brcm2708.ipk
+Size: 28722
+MD5Sum: d7e943ff3aba5affaa65f7f461ee0f2c
+Description:  Small informative web server plugin
+
+Package: olsrd-mod-jsoninfo
+Version: 0.6.5.4-1
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceFile: olsrd-0.6.5.4.tar.bz2
+SourceURL: http://www.olsr.org/releases/0.6
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: brcm2708
+Installed-Size: 12866
+Filename: olsrd-mod-jsoninfo_0.6.5.4-1_brcm2708.ipk
+Size: 13493
+MD5Sum: be0001281b1bf74eedb1fac4d4582715
+Description:  Small informative plugin with JSON output
+
+Package: olsrd-mod-mdns
+Version: 0.6.5.4-1
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceFile: olsrd-0.6.5.4.tar.bz2
+SourceURL: http://www.olsr.org/releases/0.6
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: brcm2708
+Installed-Size: 9042
+Filename: olsrd-mod-mdns_0.6.5.4-1_brcm2708.ipk
+Size: 9695
+MD5Sum: a5305964835eda7b1f5f520e426a5c06
+Description:  MDNS/Zeroconf/Bonjour packet distribution 
+
+Package: olsrd-mod-nameservice
+Version: 0.6.5.4-1
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceFile: olsrd-0.6.5.4.tar.bz2
+SourceURL: http://www.olsr.org/releases/0.6
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: brcm2708
+Installed-Size: 11546
+Filename: olsrd-mod-nameservice_0.6.5.4-1_brcm2708.ipk
+Size: 12128
+MD5Sum: 5d2e693a560351b3b9e3022aa5e1fbe9
+Description:  Lightweight hostname resolver plugin
+
+Package: olsrd-mod-txtinfo
+Version: 0.6.5.4-1
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceFile: olsrd-0.6.5.4.tar.bz2
+SourceURL: http://www.olsr.org/releases/0.6
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: brcm2708
+Installed-Size: 6553
+Filename: olsrd-mod-txtinfo_0.6.5.4-1_brcm2708.ipk
+Size: 7180
+MD5Sum: 02445b11047abc0713174ae72044c34e
+Description:  Small informative web server plugin
+
+Package: olsrd-mod-watchdog
+Version: 0.6.5.4-1
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceFile: olsrd-0.6.5.4.tar.bz2
+SourceURL: http://www.olsr.org/releases/0.6
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: brcm2708
+Installed-Size: 1401
+Filename: olsrd-mod-watchdog_0.6.5.4-1_brcm2708.ipk
+Size: 2018
+MD5Sum: bb5db2936afbbc0801e73f1c22de5f63
+Description:  Watchdog plugin
+
+Package: olsrd
+Version: 0.6.5.4-1
+Depends: libc, libpthread
+Source: feeds/routing/olsrd
+SourceFile: olsrd-0.6.5.4.tar.bz2
+SourceURL: http://www.olsr.org/releases/0.6
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: brcm2708
+Installed-Size: 122486
+Filename: olsrd_0.6.5.4-1_brcm2708.ipk
+Size: 123231
+MD5Sum: a37a8ea048996b4cc4054df7bf69faf5
+Description:  OLSR (Optimized Link State Routing) daemon
+
+Package: opkg
+Version: 618-3
+Depends: libc
+Source: package/system/opkg
+SourceFile: opkg-618.tar.gz
+SourceURL: http://opkg.googlecode.com/svn/trunk/
+License: GPLv2
+LicenseFiles: COPYING
+Section: base
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: brcm2708
+Installed-Size: 61068
+Filename: opkg_618-3_brcm2708.ipk
+Size: 61902
+MD5Sum: aa04c15fbc714f31cfe4398324d987bd
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: ppp-mod-pppoe
+Version: 2.4.5-10
+Depends: libc, kmod-pppoe
+Source: package/network/services/ppp
+SourceFile: ppp-2.4.5.tar.gz
+SourceURL: ftp://ftp.samba.org/pub/ppp/
+Section: net
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: brcm2708
+Installed-Size: 9615
+Filename: ppp-mod-pppoe_2.4.5-10_brcm2708.ipk
+Size: 10295
+MD5Sum: fdbbf1b7ef91243b6b9ea312dcd4d1ba
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp
+Version: 2.4.5-10
+Depends: libc, kmod-ppp
+Source: package/network/services/ppp
+SourceFile: ppp-2.4.5.tar.gz
+SourceURL: ftp://ftp.samba.org/pub/ppp/
+Section: net
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: brcm2708
+Installed-Size: 106779
+Filename: ppp_2.4.5-10_brcm2708.ipk
+Size: 107412
+MD5Sum: 6cffd36c97150302248985a4d5e9c228
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: procd
+Version: 2013-07-11-35560c7288919006a3daf57fe4dbfca82be4462f
+Depends: libc, ubusd, ubus, libjson-script, ubox
+Source: package/system/procd
+SourceFile: procd-2013-07-11-35560c7288919006a3daf57fe4dbfca82be4462f.tar.gz
+SourceURL: git://nbd.name/luci2/procd.git
+License: GPLv2
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 30576
+Filename: procd_2013-07-11-35560c7288919006a3daf57fe4dbfca82be4462f_brcm2708.ipk
+Size: 31090
+MD5Sum: 222f44baa2639d23b14b94bcafc3cf65
+Description:  OpenWrt system process manager
+
+Package: psybnc
+Version: 2.3.2-7-2
+Depends: libc
+Source: feeds/packages/net/psybnc
+SourceFile: psyBNC-2.3.2-7.tar.gz
+SourceURL: http://www.psybnc.at/download/beta/
+Section: net
+Architecture: brcm2708
+Installed-Size: 95568
+Filename: psybnc_2.3.2-7-2_brcm2708.ipk
+Size: 96286
+MD5Sum: 856ac269cccab96b47a72e077848178f
+Description:  psyBNC is an easy-to-use, multi-user, permanent 
+ IRC-Bouncer with many features. Some of its features 
+ vhost- and relay support to connected bouncers and an 
+ extensive online help system. Many other helpful 
+ functions are included.
+
+Package: relayd
+Version: 2011-10-24-4e8f1fa4ca2b176500362843a9e57ea5abd4b7a3
+Depends: libc, libubox
+Source: package/network/services/relayd
+SourceFile: relayd-2011-10-24.tar.bz2
+SourceURL: git://nbd.name/relayd.git
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 9075
+Filename: relayd_2011-10-24-4e8f1fa4ca2b176500362843a9e57ea5abd4b7a3_brcm2708.ipk
+Size: 9720
+MD5Sum: d4f2ca6007f0547c6cd5b37e7a1a8c43
+Description:  Transparent routing / relay daemon
+
+Package: rrdtool1
+Version: 1.0.50-2
+Depends: libc, librrd1
+Source: feeds/packages/libs/rrdtool-1.0.x
+SourceFile: rrdtool-1.0.50.tar.gz
+SourceURL: http://oss.oetiker.ch/rrdtool/pub/rrdtool-1.0.x http://www.fastmirrors.org/rrdtool/rrdtool-1.0.x ftp://ftp.sunet.se/pub/network/monitoring/rrdtool/rrdtool-1.0.x
+Section: utils
+Architecture: brcm2708
+Installed-Size: 11316
+Filename: rrdtool1_1.0.50-2_brcm2708.ipk
+Size: 12332
+MD5Sum: c5e991efb88f0a2424bdb8a8be96f587
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains command line tools used to manage RRDs.
+
+Package: ssmtp
+Version: 2.64-4
+Depends: libc, libopenssl
+Source: feeds/packages/mail/ssmtp
+SourceFile: ssmtp_2.64.orig.tar.bz2
+SourceURL: http://ftp.debian.org/debian/pool/main/s/ssmtp
+Section: mail
+Architecture: brcm2708
+Installed-Size: 12176
+Filename: ssmtp_2.64-4_brcm2708.ipk
+Size: 13043
+MD5Sum: 918f4d3157393ebfcabd0b97046853ec
+Description:  A secure, effective and simple way of getting mail off a system to your
+ mail hub. It contains no suid-binaries or other dangerous things - no
+ mail spool to poke around in, and no daemons running in the background.
+ mail is simply forwarded to the configured mailhost. Extremely easy
+ configuration.
+
+Package: tc
+Version: 3.9.0-3
+Depends: libc, kmod-sched-core
+Source: package/network/utils/iproute2
+SourceFile: iproute2-3.9.0.tar.bz2
+SourceURL: http://kernel.org/pub/linux/utils/net/iproute2/
+Section: net
+Architecture: brcm2708
+Installed-Size: 107640
+Filename: tc_3.9.0-3_brcm2708.ipk
+Size: 108193
+MD5Sum: c27acb3eff07468114ab10006300d1be
+Description:  Traffic control utility
+
+Package: terminfo
+Version: 5.9-1
+Depends: libc
+Source: package/libs/ncurses
+SourceFile: ncurses-5.9.tar.gz
+SourceURL: @GNU/ncurses
+License: FREE
+LicenseFiles: README
+Section: libs
+Architecture: brcm2708
+Installed-Size: 5587
+Filename: terminfo_5.9-1_brcm2708.ipk
+Size: 6120
+MD5Sum: ff84d26303f37e547644ec25f4754a9c
+Description:  Terminal Info Database (ncurses)
+
+Package: ubox
+Version: 2013-07-11-c897416adf05299d57e9ba25a8ea2bc628675c5f
+Depends: libc, libubox, ubusd, ubus, libuci
+Source: package/system/ubox
+SourceFile: ubox-2013-07-11-c897416adf05299d57e9ba25a8ea2bc628675c5f.tar.gz
+SourceURL: git://nbd.name/luci2/ubox.git
+License: GPLv2
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 9673
+Filename: ubox_2013-07-11-c897416adf05299d57e9ba25a8ea2bc628675c5f_brcm2708.ipk
+Size: 10342
+MD5Sum: 98c36587b5ba284909c199c0b93172b4
+Description:  OpenWrt system helper toolbox
+
+Package: ubus
+Version: 2013-05-30-f72dca720bb50d45b1b01bab5b01cb80c78c5230
+Depends: libc, libubus, libblobmsg-json, ubusd
+Source: package/system/ubus
+SourceFile: ubus-2013-05-30-f72dca720bb50d45b1b01bab5b01cb80c78c5230.tar.gz
+SourceURL: git://nbd.name/luci2/ubus.git
+License: LGPLv2.1
+Section: luci2
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 2932
+Filename: ubus_2013-05-30-f72dca720bb50d45b1b01bab5b01cb80c78c5230_brcm2708.ipk
+Size: 3613
+MD5Sum: 89a2f9ed1c1d917d40dea44d40396c39
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2013-05-30-f72dca720bb50d45b1b01bab5b01cb80c78c5230
+Depends: libc, libubox
+Source: package/system/ubus
+SourceFile: ubus-2013-05-30-f72dca720bb50d45b1b01bab5b01cb80c78c5230.tar.gz
+SourceURL: git://nbd.name/luci2/ubus.git
+License: LGPLv2.1
+Section: luci2
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 6604
+Filename: ubusd_2013-05-30-f72dca720bb50d45b1b01bab5b01cb80c78c5230_brcm2708.ipk
+Size: 7235
+MD5Sum: 00fe18e528373749271c08ad55635298
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2013-06-11.1-1
+Depends: libc, libuci
+Source: package/system/uci
+SourceFile: uci-2013-06-11.1.tar.gz
+SourceURL: git://nbd.name/uci.git
+License: LGPLv2.1 GPLv2
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 6162
+Filename: uci_2013-06-11.1-1_brcm2708.ipk
+Size: 6778
+MD5Sum: 988ca202ffb9debda351b668a4e4ef8d
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uclibcxx
+Version: 0.2.4-1
+Depends: libc
+Source: package/libs/uclibc++
+SourceFile: uClibc++-0.2.4.tar.bz2
+SourceURL: http://cxx.uclibc.org/src/
+Section: libs
+Architecture: brcm2708
+Installed-Size: 57631
+Filename: uclibcxx_0.2.4-1_brcm2708.ipk
+Size: 57963
+MD5Sum: b9ea6a04686ee31d2a6323d811a9c03c
+Description:  C++ library for embedded systems
+
+Package: uhttpd-mod-lua
+Version: 2013-06-01-87c52f8461fa74733572f4efc53bc30a64ca8575
+Depends: libc, uhttpd, liblua
+Source: package/network/services/uhttpd
+SourceFile: uhttpd-2013-06-01-87c52f8461fa74733572f4efc53bc30a64ca8575.tar.gz
+SourceURL: git://nbd.name/uhttpd2.git
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 3188
+Filename: uhttpd-mod-lua_2013-06-01-87c52f8461fa74733572f4efc53bc30a64ca8575_brcm2708.ipk
+Size: 3888
+MD5Sum: 3b04e204fbf4b9e900cb36131659d02e
+Description:  The Lua plugin adds a CGI-like Lua runtime interface to uHTTPd.
+
+Package: uhttpd
+Version: 2013-06-01-87c52f8461fa74733572f4efc53bc30a64ca8575
+Depends: libc, libubox
+Source: package/network/services/uhttpd
+SourceFile: uhttpd-2013-06-01-87c52f8461fa74733572f4efc53bc30a64ca8575.tar.gz
+SourceURL: git://nbd.name/uhttpd2.git
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 19265
+Filename: uhttpd_2013-06-01-87c52f8461fa74733572f4efc53bc30a64ca8575_brcm2708.ipk
+Size: 20031
+MD5Sum: b301b2bf90cd9bb824512ba1dc382edb
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
+Package: unrar
+Version: 4.0.7-1
+Depends: libc, uclibcxx
+Source: feeds/packages/utils/unrar
+SourceFile: unrarsrc-4.0.7.tar.gz
+SourceURL: http://www.rarlab.com/rar
+Section: utils
+Architecture: brcm2708
+Installed-Size: 96940
+Filename: unrar_4.0.7-1_brcm2708.ipk
+Size: 97302
+MD5Sum: 9a11a5d8610dc3f6a6311b8fbc3e0908
+Description:  unrar is an application that can decompress files and archives created using
+ the RAR compression scheme
+
+Package: unzip
+Version: 5.52-1
+Depends: libc
+Source: feeds/packages/utils/unzip
+SourceFile: unzip552.zip
+SourceURL: @SF/infozip
+Section: utils
+Architecture: brcm2708
+Installed-Size: 144832
+Filename: unzip_5.52-1_brcm2708.ipk
+Size: 145557
+MD5Sum: 50c03ec33bd21a941805294c38ed019c
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives 
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option), 
+ this can handle any file produced either by PKZIP, or the corresponding 
+ InfoZIP zip program.
+
+Package: vis
+Version: r1439-2
+Depends: libc, libpthread
+Source: feeds/routing/batmand
+SourceFile: batmand-r1439.tar.gz
+SourceURL: http://downloads.open-mesh.org/svn/batman/trunk/
+Section: net
+Maintainer: Marek Lindner <lindner_marek@yahoo.de>
+Architecture: brcm2708
+Installed-Size: 9929
+Filename: vis_r1439-2_brcm2708.ipk
+Size: 10617
+MD5Sum: 94b9e6e4a8460e446fd37d6ad1ae3e14
+Description:  visualization server for B.A.T.M.A.N. layer 3
+
+Package: watchcat
+Version: 1-5
+Depends: libc
+Source: feeds/packages/utils/watchcat
+Section: utils
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: brcm2708
+Installed-Size: 2050
+Filename: watchcat_1-5_brcm2708.ipk
+Size: 2670
+MD5Sum: aca259bd361dc30fde0a4318ae95cf8c
+Description:  Allows to configure a periodically reboot, or after loosing internet connectivity. Configured trough UCI /etc/config/system.
+
+Package: weechat
+Version: 0.4.0-1
+Depends: libc, libcurl, libgnutls, libncursesw, libiconv-full
+Source: feeds/packages/net/weechat
+SourceFile: weechat-0.4.0.tar.bz2
+SourceURL: http://www.weechat.org/files/src
+Section: net
+Architecture: brcm2708
+Installed-Size: 572523
+Filename: weechat_0.4.0-1_brcm2708.ipk
+Size: 570921
+MD5Sum: b916c7c7522acb8fdeee4b6b4a19f3a6
+Description:  Weechat is fast, light & extensible IRC client.
+
+Package: wireless-tools
+Version: 29-5
+Depends: libc
+Source: package/network/utils/wireless-tools
+SourceFile: wireless_tools.29.tar.gz
+SourceURL: http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 26274
+Filename: wireless-tools_29-5_brcm2708.ipk
+Size: 26934
+MD5Sum: 6b2b44c0b0184d16a90f1eb18ff549b4
+Description:  This package contains a collection of tools for configuring wireless
+ adapters implementing the "Linux Wireless Extensions".
+
+Package: wpa-cli
+Version: 20130630-2
+Depends: libc
+Source: package/network/services/hostapd
+SourceFile: hostapd-20130630.tar.bz2
+SourceURL: git://w1.fi/srv/git/hostap.git
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 23519
+Filename: wpa-cli_20130630-2_brcm2708.ipk
+Size: 24154
+MD5Sum: 628feabe068e7fd8f228e3794761eaea
+Description:  WPA Supplicant command line interface
+
+Package: wpa-supplicant-mini
+Version: 20130630-2
+Depends: libc, libnl-tiny
+Source: package/network/services/hostapd
+SourceFile: hostapd-20130630.tar.bz2
+SourceURL: git://w1.fi/srv/git/hostap.git
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 135498
+Filename: wpa-supplicant-mini_20130630-2_brcm2708.ipk
+Size: 136033
+MD5Sum: 491ed7ce5011d6b9ac634693ffc36bf9
+Description:  WPA Supplicant (minimal version)
+
+Package: wpa-supplicant
+Version: 20130630-2
+Depends: libc, libnl-tiny
+Source: package/network/services/hostapd
+SourceFile: hostapd-20130630.tar.bz2
+SourceURL: git://w1.fi/srv/git/hostap.git
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 262941
+Filename: wpa-supplicant_20130630-2_brcm2708.ipk
+Size: 263301
+MD5Sum: 85722976745b4e757489aeb1a9cd4ce6
+Description:  WPA Supplicant
+
+Package: wpad-mini
+Version: 20130630-2
+Depends: libc, libnl-tiny, libubus
+Source: package/network/services/hostapd
+SourceFile: hostapd-20130630.tar.bz2
+SourceURL: git://w1.fi/srv/git/hostap.git
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 227538
+Filename: wpad-mini_20130630-2_brcm2708.ipk
+Size: 228038
+MD5Sum: 2aa3a2ba88596bc5b8283f5b2472b4db
+Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator and Supplicant (WPA-PSK only).
+
+Package: wpad
+Version: 20130630-2
+Depends: libc, libnl-tiny, libubus
+Source: package/network/services/hostapd
+SourceFile: hostapd-20130630.tar.bz2
+SourceURL: git://w1.fi/srv/git/hostap.git
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 410231
+Filename: wpad_20130630-2_brcm2708.ipk
+Size: 410253
+MD5Sum: 30a25291c2849273d95cbdc2f1e1d57e
+Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
+ Authenticator and Supplicant
+
+Package: zip
+Version: 2.32-1
+Depends: libc
+Source: feeds/packages/utils/zip
+SourceFile: zip232.zip
+SourceURL: @SF/infozip
+Section: utils
+Architecture: brcm2708
+Installed-Size: 73129
+Filename: zip_2.32-1_brcm2708.ipk
+Size: 73257
+MD5Sum: cad260843d9940d9e44c05523661ed9a
+Description:  This is InfoZIP's zip program. It produces files that are fully 
+ compatible with the popular PKZIP program; however, the command line 
+ options are not identical. In other words, the end result is the same, 
+ but the methods differ.
+
+Package: zlib
+Version: 1.2.7-1
+Depends: libc
+Source: package/libs/zlib
+SourceFile: zlib-1.2.7.tar.bz2
+SourceURL: http://www.zlib.net @SF/libpng
+License: ZLIB
+LicenseFiles: README
+Section: libs
+Architecture: brcm2708
+Installed-Size: 40637
+Filename: zlib_1.2.7-1_brcm2708.ipk
+Size: 41304
+MD5Sum: 58be557895e89e9b509ef279c6460401
+Description:  Library implementing the deflate compression method
+

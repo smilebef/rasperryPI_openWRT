@@ -1,4 +1,5 @@
-2ad3ed604411228d690b798530ff05ca *config_brcm2708_12-07-2013.txt
-7f99e9a4d5081080ed8d595528f72c5f *openwrt-brcm2708-Image
-5956e4076fbdb8362e6cb991bb2da62d *openwrt-brcm2708-ext4.img
-21b9810e2d9169871b679e93511aa35d *openwrt-brcm2708-sdcard-vfat-ext4.img
+ef9598198b8d446af719fadc08ffc937 *openwrt-brcm2708-Image
+11eaff2b64f7e125080a4c7566612361 *openwrt-brcm2708-ext4.img
+5d35cb6db7401f5476e5fd1ec78bba16 *openwrt-brcm2708-sdcard-vfat-ext4.img
+156a17c02e9b1c99ca0d21df84cb93fe *openwrt-brcm2708-sdcard-vfat-squashfs.img
+0c571a283b5de1ce9fadc2d118a8a33f *openwrt-brcm2708-squashfs.img

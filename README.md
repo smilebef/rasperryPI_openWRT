@@ -1,6 +1,11 @@
 OpenWRT for Raspberry PI
 ------------------------
 
+The situation in this thime is,
+RaspberryPi is now enough supported in OpenWRT.
+It is easy to build a image and i think this page is not longer in use.
+I will delete it some times.
+
 Features:
 
 Luci, nano, hostap, wpa_suplicant, olsrd, babeld, batmand, batman-adv, bmx6, bmxd, relayd
